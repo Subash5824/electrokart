@@ -1,0 +1,267 @@
+@import '../styles/colors.css';
+
+.register-page {
+  min-height: 100vh;
+}
+
+.register-card {
+  max-width: 550px !important;
+}
+
+/* Progress Steps */
+.progress-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 20px;
+  background: var(--bg-header);
+  border-radius: 10px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.completed .step-number {
+  background: var(--success);
+}
+
+.step-number {
+  width: 30px;
+  height: 30px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.step-label {
+  color: var(--text-white);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.step-line {
+  width: 60px;
+  height: 2px;
+  background: var(--border-color);
+  margin: 0 10px;
+}
+
+.step-line.active {
+  background: var(--primary);
+}
+
+/* Form Steps */
+.form-step {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Password Hint */
+.password-hint {
+  background: var(--bg-main);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.password-hint p {
+  color: var(--text-white);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.password-hint ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text-gray);
+  font-size: 13px;
+}
+
+.password-hint li {
+  margin: 4px 0;
+}
+
+/* Form Navigation */
+.form-navigation {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.nav-btn {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.back-btn {
+  background: transparent;
+  color: var(--text-white);
+  border: 2px solid var(--border-color);
+}
+
+.back-btn:hover {
+  border-color: var(--primary);
+  transform: translateX(-2px);
+}
+
+.next-btn {
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.next-btn:hover {
+  transform: translateX(2px);
+  box-shadow: 0 10px 25px rgba(0, 168, 255, 0.3);
+}
+
+.submit-btn {
+  background: var(--gradient-gold);
+  color: var(--bg-main);
+  font-weight: 700;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 212, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .progress-steps {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .step-line {
+    width: 2px;
+    height: 30px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .form-navigation {
+    flex-direction: column;
+  }
+}
+.product-page {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  padding: 20px 0;
+  color: var(--text-gray);
+}
+
+.breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* Product Main */
+.product-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error */
+.error-container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.error-container h2 {
+  color: var(--error);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.error-container p {
+  color: var(--text-gray);
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .product-main {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+}

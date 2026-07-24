@@ -1,0 +1,56 @@
+.transactions-page {
+  min-height: 100vh;
+  background-color: #0A1929;
+  padding: 24px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-header h1 {
+  color: #2E7D32;
+  font-size: 28px;
+}
+
+.back-btn {
+  padding: 8px 16px;
+  background-color: #1E2A3A;
+  color: #B0BEC5;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.filter-section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  background-color: #1E2A3A;
+  color: #B0BEC5;
+  border: 1px solid #334155;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: #2E7D32;
+  color: white;
+  border-color: #2E7D32;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #B0BEC5;
+}

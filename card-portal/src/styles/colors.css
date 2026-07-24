@@ -1,0 +1,12 @@
+/* Color variables for the card portal */
+:root {
+  --bank-bg: #0A1929;
+  --bank-card: #1E2A3A;
+  --bank-accent: #2E7D32;
+  --bank-warning: #ED6C02;
+  --bank-text: #FFFFFF;
+  --bank-muted: #B0BEC5;
+  --bank-border: #334155;
+  --bank-success: #2E7D32;
+  --bank-error: #D32F2F;
+}

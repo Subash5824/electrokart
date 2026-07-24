@@ -1,0 +1,58 @@
+@import '../styles/colors.css';
+
+.card-summary {
+  background: var(--bank-card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--bank-border);
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.summary-header h3 {
+  color: var(--bank-text);
+  font-size: 1.125rem;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summary-label {
+  color: var(--bank-muted);
+  font-size: 0.875rem;
+}
+
+.summary-value {
+  color: var(--bank-text);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.summary-value.accent {
+  color: var(--bank-accent);
+}
+
+.summary-value.success {
+  color: #4CAF50;
+}
+
+.card-number {
+  font-family: monospace;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}

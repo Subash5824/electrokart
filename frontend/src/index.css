@@ -1,0 +1,7 @@
+/* Import global styles FIRST */
+@import './styles/global.css';
+
+/* Then Tailwind directives - these work in v3 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,6 @@
+/* App.css */
+@import './styles/colors.css';
+
+.App {
+  min-height: 100vh;
+}

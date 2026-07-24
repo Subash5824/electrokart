@@ -1,0 +1,1947 @@
+[INFO] 2026-03-19T05:10:54.381Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T05:10:54.383Z: ✅ Environment: development
+[INFO] 2026-03-19T05:10:54.385Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T05:12:11.717Z: GET /
+[INFO] 2026-03-19T05:12:11.825Z: GET /favicon.ico
+[INFO] 2026-03-19T05:18:48.209Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T05:18:48.210Z: ✅ Environment: development
+[INFO] 2026-03-19T05:18:48.211Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T05:20:48.249Z: POST /api/auth/register%20
+[INFO] 2026-03-19T05:39:42.741Z: POST /api/auth/register
+[INFO] 2026-03-19T05:41:14.012Z: GET /api/cards/my-card
+[INFO] 2026-03-19T05:41:14.031Z: GET /api/cards/my-card
+[INFO] 2026-03-19T05:44:20.626Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T05:44:20.637Z: ✅ Environment: development
+[INFO] 2026-03-19T05:44:20.638Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T05:46:11.930Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T05:46:11.932Z: ✅ Environment: development
+[INFO] 2026-03-19T05:46:11.933Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T05:55:47.644Z: GET /api/cards/my-card
+[INFO] 2026-03-19T05:55:47.695Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:03:09.559Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:03:09.573Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:03:16.395Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:03:16.409Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:06:37.132Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T06:06:37.133Z: ✅ Environment: development
+[INFO] 2026-03-19T06:06:37.133Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T06:07:27.287Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T06:07:27.289Z: ✅ Environment: development
+[INFO] 2026-03-19T06:07:27.290Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T06:22:49.873Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T06:22:49.875Z: ✅ Environment: development
+[INFO] 2026-03-19T06:22:49.875Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T06:24:11.569Z: GET /
+[INFO] 2026-03-19T06:24:58.757Z: GET /
+[INFO] 2026-03-19T06:25:09.014Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:09.039Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:09.046Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:09.086Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:09.102Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:09.131Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:18.043Z: GET /api/notifications/my-notifications
+[INFO] 2026-03-19T06:25:18.055Z: GET /api/notifications/my-notifications
+[INFO] 2026-03-19T06:25:19.366Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:19.371Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:19.376Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:19.395Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:19.400Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:19.408Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:22.016Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:22.019Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:22.022Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:22.044Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:22.048Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:22.057Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:25.290Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:25.294Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:25.298Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:25.316Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:25:25.320Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:25:25.330Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:25:27.759Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T06:25:27.781Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T06:25:32.645Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T06:25:33.316Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T06:25:34.525Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T06:26:07.985Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:26:07.988Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:26:07.993Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:26:08.009Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:26:08.013Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:26:08.023Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:26:18.609Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:26:18.620Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:26:48.582Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:26:48.592Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:29:02.926Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:29:02.937Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:29:02.941Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T06:29:02.955Z: GET /api/cards/my-card
+[INFO] 2026-03-19T06:29:02.959Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T06:29:02.969Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:33:19.706Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:33:19.744Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:33:19.749Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:33:19.783Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:33:19.790Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:33:19.838Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:35:22.919Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T07:35:22.920Z: ✅ Environment: development
+[INFO] 2026-03-19T07:35:22.921Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T07:36:07.234Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T07:36:07.235Z: ✅ Environment: development
+[INFO] 2026-03-19T07:36:07.236Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T07:37:13.648Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T07:37:13.649Z: ✅ Environment: development
+[INFO] 2026-03-19T07:37:13.650Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T07:37:59.009Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T07:37:59.010Z: ✅ Environment: development
+[INFO] 2026-03-19T07:37:59.011Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T07:38:30.733Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:38:30.786Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:38:30.791Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:38:30.813Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:38:30.828Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:38:30.840Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:41:42.271Z: GET /api/notifications/my-notifications
+[INFO] 2026-03-19T07:41:42.288Z: GET /api/notifications/my-notifications
+[INFO] 2026-03-19T07:41:44.348Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:41:44.352Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:41:44.362Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:41:44.400Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:41:44.405Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:41:44.417Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:41:52.739Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T07:41:52.754Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T07:41:54.406Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T07:41:54.921Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T07:41:55.682Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T07:41:56.934Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:41:56.937Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:41:56.942Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:41:56.959Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:41:56.963Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:41:56.972Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:42:14.358Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:42:14.361Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:42:14.365Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:42:14.386Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:42:14.392Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:42:14.400Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:42:25.138Z: GET /api/notifications/my-notifications
+[INFO] 2026-03-19T07:42:25.152Z: GET /api/notifications/my-notifications
+[INFO] 2026-03-19T07:42:26.534Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:42:26.538Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:42:26.542Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:42:26.560Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:42:26.563Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:42:26.571Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:42:31.456Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:42:31.461Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:42:31.468Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:42:31.491Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:42:31.497Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:42:31.508Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:43:35.598Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:43:35.609Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:19.038Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:19.052Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:23.067Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:23.080Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:25.819Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:25.831Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:36.133Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:44:36.143Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:57:24.512Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:57:24.523Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:58:10.151Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:58:10.158Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:58:10.166Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T07:58:10.182Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T07:58:10.187Z: GET /api/cards/my-card
+[INFO] 2026-03-19T07:58:10.198Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:00:49.754Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:00:49.775Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:00:49.797Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:01:56.872Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:01:56.882Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:01:56.890Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:01:56.898Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:01:56.903Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:01:56.915Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:02:27.158Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:02:27.169Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:02:27.179Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:02:27.190Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:02:27.200Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:02:27.214Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:02:36.950Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:02:36.964Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:02:36.973Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:02:36.988Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:02:37.000Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:02:37.018Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:02:44.198Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:02:44.211Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:02:44.221Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:02:44.236Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:02:44.245Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:02:44.263Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:05:00.273Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:05:00.286Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:05:00.305Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:05:00.319Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:05:00.329Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:05:00.341Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:10:34.514Z: POST /api/auth/login
+[INFO] 2026-03-19T08:10:47.973Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:10:47.987Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:10:48.001Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:10:48.021Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:10:48.033Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:10:48.049Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:11:37.694Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:11:37.714Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:11:40.584Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:11:41.115Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:11:42.293Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:11:42.302Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:11:42.314Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:11:42.328Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:11:42.335Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:11:42.350Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:12:13.471Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:12:13.483Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:12:28.455Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:12:28.466Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:12:28.475Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:12:28.486Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:12:28.495Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:12:28.507Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:12:35.749Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:12:35.760Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:12:35.766Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:12:35.780Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:12:35.788Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:12:35.804Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:12:53.898Z: POST /api/auth/login
+[INFO] 2026-03-19T08:13:06.746Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:13:06.764Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:13:06.774Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:13:06.786Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:13:06.793Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:13:06.808Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:16:36.907Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:16:36.918Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:16:36.931Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:16:36.944Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:16:36.952Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:16:36.963Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:17:50.474Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:17:50.486Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:17:50.498Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:17:50.510Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:17:50.518Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:17:50.533Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:17:57.637Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:17:57.650Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:18:00.905Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:18:01.411Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:18:05.195Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:18:05.204Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:18:05.211Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:18:05.223Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:18:05.234Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:18:05.249Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:18:10.699Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:18:10.711Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:18:17.338Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:18:17.346Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:18:17.363Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:18:17.372Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:18:17.381Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:18:17.397Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:30:39.720Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:30:39.732Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:30:39.743Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:30:39.753Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:30:39.759Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:30:39.772Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:30:55.349Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:30:55.360Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:30:55.378Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:30:55.389Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:30:55.396Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:30:55.411Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:31:05.283Z: POST /api/auth/login
+[INFO] 2026-03-19T08:31:07.329Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:07.341Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:07.357Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:31:07.368Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:31:07.374Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:31:07.387Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:31:17.459Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:31:17.476Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T08:31:25.818Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:25.828Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:31.809Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:31.820Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:31.834Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:31:31.845Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:31:31.855Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:31:31.870Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:31:55.743Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:31:55.753Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:35:38.092Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:35:38.108Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:48:47.880Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:48:47.911Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:04.639Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:04.652Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:14.592Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:14.608Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:14.626Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:49:14.645Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:49:14.662Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:49:14.687Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:49:24.646Z: POST /api/auth/login
+[INFO] 2026-03-19T08:49:31.873Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:31.892Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:47.464Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:47.479Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:47.502Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:49:47.518Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:49:47.532Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:49:47.553Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:49:56.293Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:56.304Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:49:56.312Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:49:56.323Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:49:56.335Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:49:56.349Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:50:05.302Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:50:05.314Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:50:18.043Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:50:18.058Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:50:18.074Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:50:18.089Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:50:18.102Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:50:18.120Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:50:46.373Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:50:46.385Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:53:26.409Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:53:58.901Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:53:58.919Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:53:58.933Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:53:58.944Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:53:58.954Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:53:58.969Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:54:18.219Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:54:18.231Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:54:24.429Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:54:24.444Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:54:24.463Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:54:24.475Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:54:24.488Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:54:24.503Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:54:44.095Z: POST /api/auth/login
+[INFO] 2026-03-19T08:55:12.770Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:12.783Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:18.542Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:18.553Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:23.065Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:23.080Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:31.251Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:31.264Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:31.288Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:55:31.300Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T08:55:31.311Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:55:31.327Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T08:55:37.502Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:55:37.516Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:56:09.340Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:56:09.351Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:56:09.458Z: GET /api/cards/my-card
+[INFO] 2026-03-19T08:56:09.475Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:39:01.774Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:39:01.797Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:39:01.816Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:39:01.826Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:39:49.364Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:39:49.375Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:41:59.295Z: POST /api/payments/netbanking
+[INFO] 2026-03-19T09:42:04.016Z: POST /api/payments/netbanking
+[INFO] 2026-03-19T09:42:40.664Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:42:40.679Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:42:40.700Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T09:42:40.713Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T09:42:40.724Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T09:42:40.739Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T09:42:44.721Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T09:42:44.740Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T09:42:55.554Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:42:55.566Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:43:36.238Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:43:36.247Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:48:27.863Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:48:36.780Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:48:36.794Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:48:56.174Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:48:56.186Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:48:56.210Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T09:48:56.229Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T09:48:56.240Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T09:48:56.260Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T09:49:07.774Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:49:07.785Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:49:36.153Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:49:36.163Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:52:22.912Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:52:22.941Z: GET /api/cards/my-card
+[INFO] 2026-03-19T09:52:22.957Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T09:52:22.989Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T09:52:23.006Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T09:52:23.025Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T09:58:50.973Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T09:58:50.975Z: ✅ Environment: development
+[INFO] 2026-03-19T09:58:50.976Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T09:59:35.513Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T09:59:35.514Z: ✅ Environment: development
+[INFO] 2026-03-19T09:59:35.515Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T09:59:43.809Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T09:59:43.811Z: ✅ Environment: development
+[INFO] 2026-03-19T09:59:43.812Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T10:00:54.400Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T10:00:54.402Z: ✅ Environment: development
+[INFO] 2026-03-19T10:00:54.403Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T10:01:16.752Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T10:01:16.753Z: ✅ Environment: development
+[INFO] 2026-03-19T10:01:16.754Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T10:01:49.155Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T10:01:49.157Z: ✅ Environment: development
+[INFO] 2026-03-19T10:01:49.157Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T10:02:28.840Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:02:28.879Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:02:28.888Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:02:28.898Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:04:44.564Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:04:44.578Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:04:58.552Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:04:58.568Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:04:58.579Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:04:58.594Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:04:58.605Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:04:58.625Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:05:07.695Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:05:07.710Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:08:52.709Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:08:52.719Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:12:41.658Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:12:41.710Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:12:48.021Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:12:48.035Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:14:12.508Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:14:12.522Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:14:18.628Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:14:18.642Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:17:41.809Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:17:46.060Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:17:46.070Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:19:43.346Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:19:43.361Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:19:43.374Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:19:43.391Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:19:43.401Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:19:43.476Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:19:55.981Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:19:55.997Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:20:51.874Z: POST /api/payments/stripe
+[INFO] 2026-03-19T10:21:01.178Z: POST /api/payments/stripe
+[INFO] 2026-03-19T10:21:06.833Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:21:06.844Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:21:10.183Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:21:10.196Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:21:10.212Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:21:10.223Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:21:10.231Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:21:10.246Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:21:14.290Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:21:14.301Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:22:03.530Z: POST /api/payments/stripe
+[INFO] 2026-03-19T10:22:46.379Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:22:46.391Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:22:46.405Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:22:46.417Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:22:46.425Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:22:46.442Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:26:15.863Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:26:15.873Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:26:15.885Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:26:15.894Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:26:15.902Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:26:15.915Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:26:20.744Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:26:20.759Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:26:46.625Z: POST /api/payments/stripe
+[INFO] 2026-03-19T10:28:02.656Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:28:02.670Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:28:02.680Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:28:02.690Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:28:02.702Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:28:02.716Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:28:10.629Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:28:10.639Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:30:29.978Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:30:29.990Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:31:34.835Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:31:34.845Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:32:49.811Z: POST /api/payments/stripe
+[INFO] 2026-03-19T10:35:09.721Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T10:35:09.723Z: ✅ Environment: development
+[INFO] 2026-03-19T10:35:09.724Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T10:58:12.991Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T10:58:12.993Z: ✅ Environment: development
+[INFO] 2026-03-19T10:58:12.993Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T10:59:05.927Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:59:05.991Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:59:06.005Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:59:06.023Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T10:59:06.037Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:59:06.085Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T10:59:11.775Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:59:11.794Z: GET /api/cards/my-card
+[INFO] 2026-03-19T10:59:47.821Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:00:26.929Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:00:26.942Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:00:50.081Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:00:50.091Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:01:09.290Z: POST /api/payments/credit
+[INFO] 2026-03-19T11:04:24.138Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:04:46.841Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:04:46.853Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:04:53.005Z: GET /api/payments/get-key
+[INFO] 2026-03-19T11:04:53.023Z: POST /api/payments/create-order
+[INFO] 2026-03-19T11:04:59.636Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:04:59.649Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:11:26.136Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:11:26.150Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:11:26.159Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:11:26.182Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:11:26.190Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:11:26.209Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:11:30.979Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T11:11:30.993Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T11:21:09.343Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:21:09.355Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:21:09.367Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:21:09.378Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:21:09.386Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:21:09.400Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:21:12.787Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T11:21:12.804Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T11:22:17.222Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:22:17.234Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:22:17.244Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:22:17.254Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:22:17.263Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:22:17.276Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:30:45.052Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:30:45.064Z: GET /api/cards/my-card
+[INFO] 2026-03-19T11:30:45.074Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:30:45.084Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T11:30:45.095Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:30:45.110Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T11:31:26.940Z: POST /api/orders
+[INFO] 2026-03-19T11:31:41.386Z: POST /api/orders
+[INFO] 2026-03-19T11:40:17.153Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T11:40:17.155Z: ✅ Environment: development
+[INFO] 2026-03-19T11:40:17.157Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T11:48:23.536Z: POST /api/orders
+[INFO] 2026-03-19T11:54:21.101Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T11:54:21.102Z: ✅ Environment: development
+[INFO] 2026-03-19T11:54:21.103Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T11:57:06.491Z: POST /api/orders
+[INFO] 2026-03-19T12:06:06.650Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:06:06.653Z: ✅ Environment: development
+[INFO] 2026-03-19T12:06:06.653Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:08:42.379Z: POST /api/orders
+[INFO] 2026-03-19T12:10:42.402Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:10:42.404Z: ✅ Environment: development
+[INFO] 2026-03-19T12:10:42.404Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:11:09.477Z: POST /api/orders
+[INFO] 2026-03-19T12:11:27.513Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:11:27.516Z: ✅ Environment: development
+[INFO] 2026-03-19T12:11:27.517Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:15:17.983Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:15:17.985Z: ✅ Environment: development
+[INFO] 2026-03-19T12:15:17.986Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:15:57.793Z: POST /api/orders
+[INFO] 2026-03-19T12:20:11.995Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:20:11.998Z: ✅ Environment: development
+[INFO] 2026-03-19T12:20:11.999Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:20:45.042Z: POST /api/orders
+[INFO] 2026-03-19T12:22:09.398Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:22:09.400Z: ✅ Environment: development
+[INFO] 2026-03-19T12:22:09.402Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:22:32.158Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:22:32.159Z: ✅ Environment: development
+[INFO] 2026-03-19T12:22:32.160Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:24:13.052Z: POST /api/orders
+[INFO] 2026-03-19T12:25:26.699Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:25:26.701Z: ✅ Environment: development
+[INFO] 2026-03-19T12:25:26.702Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:25:33.609Z: POST /api/orders
+[INFO] 2026-03-19T12:31:32.608Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:31:32.610Z: ✅ Environment: development
+[INFO] 2026-03-19T12:31:32.611Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:34:05.956Z: POST /api/orders
+[INFO] 2026-03-19T12:34:26.352Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:34:26.395Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:34:26.405Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:34:26.436Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:34:26.451Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:34:26.494Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:36:01.060Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:36:01.073Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:36:01.083Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:36:01.098Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:36:01.112Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:36:01.127Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:41:40.191Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:41:40.201Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:41:40.213Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:41:40.245Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:41:40.263Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:41:40.295Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:42:08.196Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:42:08.205Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:42:08.217Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:42:08.226Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:42:08.243Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:42:08.257Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:42:50.986Z: POST /api/orders
+[INFO] 2026-03-19T12:48:38.216Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:48:38.231Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:48:38.241Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:48:38.264Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:48:38.278Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:48:38.293Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:48:38.536Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:48:38.547Z: GET /api/cards/my-card
+[INFO] 2026-03-19T12:48:38.555Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:48:38.568Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T12:48:38.578Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:48:38.622Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T12:51:15.122Z: POST /api/orders
+[INFO] 2026-03-19T12:54:59.819Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T12:54:59.821Z: ✅ Environment: development
+[INFO] 2026-03-19T12:54:59.821Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T12:55:14.095Z: POST /api/orders
+[INFO] 2026-03-19T13:13:56.940Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:13:56.942Z: ✅ Environment: development
+[INFO] 2026-03-19T13:13:56.943Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:14:06.490Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:14:06.493Z: ✅ Environment: development
+[INFO] 2026-03-19T13:14:06.494Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:17:35.373Z: POST /api/orders
+[INFO] 2026-03-19T13:17:41.224Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:17:41.243Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:17:41.256Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:17:41.275Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:17:41.294Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:17:41.320Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:17:47.787Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:17:47.803Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:17:58.626Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:17:58.642Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:17:58.659Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:17:58.687Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:17:58.708Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:17:58.739Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:10.429Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:10.447Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:16.478Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:16.489Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:16.496Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:16.508Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:16.516Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:16.530Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:21.523Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:21.541Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:26.170Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:26.771Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:28.644Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:29.163Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:35.005Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:35.015Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:35.028Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:35.042Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:35.051Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:35.065Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:41.550Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:41.563Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:41.572Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:41.583Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:41.590Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:41.606Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:45.336Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:45.353Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:18:47.135Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:47.150Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:18:47.158Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:47.171Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:18:47.180Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:18:47.193Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:19:14.209Z: POST /api/orders
+[INFO] 2026-03-19T13:19:38.896Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:19:38.905Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:19:38.916Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:19:38.937Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:19:38.940Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:19:38.956Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:19:41.584Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:19:41.598Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:19:45.908Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:19:45.921Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:19:45.935Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:19:45.945Z: GET /api/billing/current-bill
+[INFO] 2026-03-19T13:19:45.957Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:19:45.970Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-19T13:22:31.050Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:22:31.067Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:24:50.668Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:24:50.671Z: ✅ Environment: development
+[INFO] 2026-03-19T13:24:50.671Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:26:15.300Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:26:15.304Z: ✅ Environment: development
+[INFO] 2026-03-19T13:26:15.306Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:26:25.865Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:26:25.868Z: ✅ Environment: development
+[INFO] 2026-03-19T13:26:25.869Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:26:37.568Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:26:37.570Z: ✅ Environment: development
+[INFO] 2026-03-19T13:26:37.571Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:27:52.436Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:27:52.486Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:27:52.501Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:27:52.531Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:28:10.240Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:28:10.265Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:28:10.966Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:28:10.979Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:28:10.988Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:28:11.006Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:28:16.257Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:28:16.267Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:28:16.277Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:28:16.296Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:28:33.612Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:28:33.627Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:28:33.634Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:28:33.649Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:35:16.797Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:35:16.829Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:40:26.797Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:40:26.828Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:40:48.190Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:40:48.201Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:40:48.212Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:40:48.226Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:40:55.546Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:40:55.561Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T13:40:58.029Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:40:58.040Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:40:58.048Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:40:58.064Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:44:38.179Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:44:38.180Z: ✅ Environment: development
+[INFO] 2026-03-19T13:44:38.181Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:45:31.977Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:45:32.028Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:45:32.040Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:45:32.065Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:46:18.548Z: POST /api/orders
+[INFO] 2026-03-19T13:47:33.166Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:47:33.167Z: ✅ Environment: development
+[INFO] 2026-03-19T13:47:33.168Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:48:02.103Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:48:02.104Z: ✅ Environment: development
+[INFO] 2026-03-19T13:48:02.105Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:48:19.508Z: POST /api/orders
+[INFO] 2026-03-19T13:49:02.281Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:49:02.282Z: ✅ Environment: development
+[INFO] 2026-03-19T13:49:02.283Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:50:08.769Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:50:08.770Z: ✅ Environment: development
+[INFO] 2026-03-19T13:50:08.771Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:51:37.120Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:51:37.121Z: ✅ Environment: development
+[INFO] 2026-03-19T13:51:37.123Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T13:51:55.040Z: POST /api/orders
+[INFO] 2026-03-19T13:52:04.742Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:52:04.759Z: GET /api/cards/my-card
+[INFO] 2026-03-19T13:52:04.777Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:52:04.816Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T13:53:19.891Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T13:53:19.892Z: ✅ Environment: development
+[INFO] 2026-03-19T13:53:19.892Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T14:14:50.878Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T14:14:50.881Z: ✅ Environment: development
+[INFO] 2026-03-19T14:14:50.882Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-19T14:21:26.280Z: POST /api/orders
+[INFO] 2026-03-19T14:21:30.638Z: GET /api/cards/my-card
+[INFO] 2026-03-19T14:21:30.653Z: GET /api/cards/my-card
+[INFO] 2026-03-19T14:21:30.668Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T14:21:30.731Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T14:27:22.902Z: POST /api/auth/register
+[INFO] 2026-03-19T14:27:32.975Z: POST /api/auth/register
+[INFO] 2026-03-19T14:27:37.971Z: POST /api/auth/login
+[INFO] 2026-03-19T14:27:40.227Z: GET /api/cards/my-card
+[INFO] 2026-03-19T14:27:40.239Z: GET /api/cards/my-card
+[INFO] 2026-03-19T14:27:40.254Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T14:27:40.272Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:45:27.449Z: POST /api/auth/register
+[INFO] 2026-03-19T16:47:24.235Z: POST /api/orders
+[INFO] 2026-03-19T16:47:28.088Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:47:28.100Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:47:28.111Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:47:28.127Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:47:51.955Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:47:51.970Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:47:51.977Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:47:51.996Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:48:09.403Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:48:09.416Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:48:09.425Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:48:09.442Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:48:14.160Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T16:48:14.178Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T16:48:18.038Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T16:48:18.892Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T16:48:21.010Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T16:48:26.018Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-19T16:48:28.640Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:48:28.651Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:48:28.662Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:48:28.676Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:48:46.438Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:48:46.449Z: GET /api/cards/my-card
+[INFO] 2026-03-19T16:48:46.462Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:48:46.476Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-19T16:49:02.471Z: ✅ Server running on port 5000
+[INFO] 2026-03-19T16:49:02.473Z: ✅ Environment: development
+[INFO] 2026-03-19T16:49:02.473Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T04:05:04.652Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T04:05:04.653Z: ✅ Environment: development
+[INFO] 2026-03-20T04:05:04.654Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T04:06:17.419Z: POST /api/auth/login
+[INFO] 2026-03-20T04:06:47.540Z: POST /api/auth/login
+[INFO] 2026-03-20T04:06:50.140Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:06:50.180Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:06:50.195Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:06:50.295Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:08:20.434Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:08:20.447Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:08:20.458Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:08:20.475Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:09:11.220Z: POST /api/auth/login
+[INFO] 2026-03-20T04:09:24.345Z: POST /api/auth/login
+[INFO] 2026-03-20T04:09:35.378Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:09:35.397Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:09:35.415Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:09:35.438Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:20:16.649Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:20:16.663Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:20:16.673Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:20:16.687Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:20:29.535Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:20:29.546Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:20:29.555Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:20:29.568Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:34:34.964Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:34:34.979Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:34:35.029Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:34:35.044Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:34:42.135Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:34:42.145Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:34:42.156Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:34:42.171Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:34:47.845Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:34:47.860Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:39:27.242Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:39:27.252Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:39:27.263Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:39:27.278Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:40:25.001Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-20T04:40:25.014Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-20T04:40:30.045Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:40:30.056Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:40:30.066Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:40:30.078Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:40:33.661Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:40:33.672Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:45:54.843Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:45:54.859Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:46:42.145Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:46:42.153Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:46:42.162Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:46:42.177Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:52:54.637Z: POST /api/auth/login
+[INFO] 2026-03-20T04:55:20.966Z: POST /api/auth/login
+[INFO] 2026-03-20T04:55:25.904Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:55:25.913Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:55:25.924Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:55:25.939Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:55:32.338Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:55:32.354Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T04:56:05.028Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:56:05.038Z: GET /api/cards/my-card
+[INFO] 2026-03-20T04:56:05.049Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T04:56:05.062Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:00:37.547Z: POST /api/orders
+[INFO] 2026-03-20T05:00:49.425Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:00:49.436Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:00:49.449Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:00:49.465Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:00:56.085Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T05:00:56.100Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T05:21:03.600Z: GET /
+[INFO] 2026-03-20T05:21:03.668Z: GET /favicon.ico
+[INFO] 2026-03-20T05:21:59.516Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T05:21:59.520Z: ✅ Environment: development
+[INFO] 2026-03-20T05:21:59.522Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T05:31:09.712Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T05:31:09.713Z: ✅ Environment: development
+[INFO] 2026-03-20T05:31:09.714Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T05:31:19.312Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T05:31:19.314Z: ✅ Environment: development
+[INFO] 2026-03-20T05:31:19.316Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T05:40:46.555Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T05:40:46.557Z: ✅ Environment: development
+[INFO] 2026-03-20T05:40:46.558Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T05:41:18.955Z: POST /api/auth/login
+[INFO] 2026-03-20T05:41:21.451Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:41:21.476Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:41:21.490Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:41:21.516Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:44:11.787Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:44:11.801Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:44:11.809Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:44:11.827Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:47:43.944Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:47:43.960Z: GET /api/cards/my-card
+[INFO] 2026-03-20T05:47:43.968Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:47:43.983Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T05:51:09.864Z: POST /api/banker/login
+[INFO] 2026-03-20T05:51:47.153Z: POST /api/banker/login
+[INFO] 2026-03-20T05:52:53.132Z: POST /api/banker/login
+[INFO] 2026-03-20T05:57:37.753Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T05:57:37.755Z: ✅ Environment: development
+[INFO] 2026-03-20T05:57:37.756Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T06:03:57.540Z: POST /api/banker/login
+[INFO] 2026-03-20T06:07:28.449Z: POST /api/auth/login
+[INFO] 2026-03-20T06:10:24.216Z: POST /api/auth/login
+[INFO] 2026-03-20T06:10:24.482Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:24.501Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:24.518Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:24.548Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:24.560Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:24.581Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:44.245Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:44.260Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:44.269Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:44.282Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:44.289Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:44.304Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:46.181Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-20T06:10:46.203Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-20T06:10:49.437Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:49.448Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:49.459Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:49.469Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:49.476Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:49.490Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:55.729Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:55.741Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:10:55.751Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:55.760Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:10:55.767Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:10:55.783Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:11:05.880Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:11:05.890Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:11:05.912Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:11:05.921Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:11:05.927Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:11:05.941Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:11:11.141Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:11:11.155Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:11:11.162Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:11:11.173Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T06:11:11.180Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:11:11.194Z: GET /api/transactions/my-transactions?page=1&limit=5
+[INFO] 2026-03-20T06:11:18.067Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:11:18.076Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:13:48.596Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T06:13:48.599Z: ✅ Environment: development
+[INFO] 2026-03-20T06:13:48.601Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T06:13:53.911Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T06:13:53.913Z: ✅ Environment: development
+[INFO] 2026-03-20T06:13:53.914Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T06:15:22.176Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T06:15:22.179Z: ✅ Environment: development
+[INFO] 2026-03-20T06:15:22.179Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T06:16:03.258Z: POST /api/banker/login
+[INFO] 2026-03-20T06:17:20.234Z: POST /api/banker/login
+[INFO] 2026-03-20T06:32:20.649Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T06:32:20.651Z: ✅ Environment: development
+[INFO] 2026-03-20T06:32:20.652Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T06:32:50.916Z: POST /api/banker/login
+[INFO] 2026-03-20T06:32:51.316Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:32:51.339Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:33:39.013Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:33:39.028Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:33:39.044Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T06:33:39.069Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T06:33:41.608Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T06:33:41.624Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T06:38:22.402Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:38:22.411Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:38:36.153Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:38:36.161Z: GET /api/cards/my-card
+[INFO] 2026-03-20T06:39:50.620Z: POST /api/banker/login
+[INFO] 2026-03-20T06:42:56.760Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:42:56.822Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:42:56.852Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:43:17.300Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:43:17.330Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:43:17.342Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:43:17.364Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:43:17.371Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:43:17.394Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:44:20.712Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:44:20.743Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:44:20.756Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:44:20.779Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:44:20.783Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:44:20.803Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:47:12.543Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:47:12.570Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:47:12.579Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:47:12.597Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:47:12.601Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:47:12.622Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:51:35.739Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:51:35.765Z: GET /api/banker/stats
+[INFO] 2026-03-20T06:51:35.775Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:51:35.794Z: GET /api/banker/customers
+[INFO] 2026-03-20T06:51:35.797Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T06:51:35.814Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:01:29.759Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:01:29.795Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:01:29.817Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:01:38.229Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:01:38.253Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:01:38.261Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:01:38.280Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:01:38.284Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:01:38.303Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:01:55.434Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:01:55.454Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:02:06.416Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:02:06.431Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:02:10.613Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:02:10.640Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:02:10.651Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:02:10.672Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:02:10.676Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:02:10.693Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:02:13.364Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:02:13.389Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:02:13.397Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:02:13.414Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:02:13.423Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:02:13.443Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:02:19.226Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:02:19.239Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:17:28.675Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T07:17:28.677Z: ✅ Environment: development
+[INFO] 2026-03-20T07:17:28.678Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T07:17:50.910Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:17:50.974Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:18:01.485Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:18:01.527Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:18:01.536Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:18:01.563Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:18:01.566Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:18:01.594Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:18:08.788Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:18:08.814Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:18:24.352Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:18:24.382Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:18:24.391Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:18:24.413Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:18:24.417Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:18:24.439Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:18:28.269Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:18:28.298Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:18:42.996Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T07:18:43.011Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T07:19:02.993Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:19:03.004Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:19:03.017Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:19:03.032Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:19:19.294Z: POST /api/auth/login
+[INFO] 2026-03-20T07:19:22.473Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:19:22.485Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:19:22.496Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:19:22.512Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:26:32.981Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:26:32.991Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:26:33.005Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:26:33.025Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:26:33.107Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:26:33.122Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:26:52.933Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:26:52.962Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:26:52.972Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:26:52.993Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:26:52.998Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:26:53.020Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:26:56.308Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:26:56.328Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:27:03.408Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:27:03.418Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:27:03.428Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:27:03.444Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:30:40.077Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:30:40.089Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:30:40.107Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:30:40.120Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:34:05.786Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:05.796Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:05.813Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:34:05.833Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:34:30.684Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:30.696Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:30.711Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:34:30.738Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:34:50.487Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:50.498Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:50.509Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:34:50.524Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:34:54.098Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:54.110Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:34:54.121Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:34:54.129Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:35:17.950Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:35:17.961Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:35:17.973Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:35:17.986Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:35:39.349Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:35:39.359Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:35:39.368Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:35:39.377Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:35:52.087Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:35:52.101Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:35:52.109Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:35:52.121Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:36:01.083Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:36:01.093Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:36:01.100Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:36:01.111Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:38:32.307Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:38:32.322Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:38:32.334Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:38:32.349Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:41:53.011Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T07:41:53.013Z: ✅ Environment: development
+[INFO] 2026-03-20T07:41:53.014Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T07:44:40.057Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T07:44:40.059Z: ✅ Environment: development
+[INFO] 2026-03-20T07:44:40.059Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T07:46:00.466Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:46:00.498Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:46:00.513Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:46:00.534Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:49:01.083Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:01.096Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:01.105Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:49:01.120Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:49:06.470Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:06.480Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:06.490Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:49:06.499Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:49:13.996Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:14.009Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:14.021Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:49:14.037Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:49:23.737Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:23.747Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:49:23.754Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:49:23.764Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:49:44.318Z: POST /api/payments/make-payment
+[INFO] 2026-03-20T07:52:48.483Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T07:52:48.485Z: ✅ Environment: development
+[INFO] 2026-03-20T07:52:48.485Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T07:54:56.907Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T07:54:56.908Z: ✅ Environment: development
+[INFO] 2026-03-20T07:54:56.909Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-20T07:55:11.239Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:55:11.285Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:55:11.298Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:55:11.311Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:55:26.774Z: POST /api/payments/make-payment
+[INFO] 2026-03-20T07:55:28.949Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:55:28.961Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:55:28.973Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:55:29.000Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:55:47.484Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T07:55:47.506Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T07:56:15.099Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:56:15.131Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:56:20.932Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:56:20.968Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:56:20.978Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:56:21.000Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:56:21.008Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:56:21.031Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:56:23.865Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:56:23.892Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:56:28.041Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:56:28.062Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:56:39.588Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:56:39.601Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:56:39.611Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:56:39.630Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:56:51.651Z: POST /api/auth/login
+[INFO] 2026-03-20T07:56:53.768Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:56:53.781Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:56:53.790Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:56:53.807Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:57:01.490Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:57:01.503Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:57:01.512Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:57:01.525Z: GET /api/billing/current-bill
+[INFO] 2026-03-20T07:57:11.469Z: POST /api/payments/make-payment
+[INFO] 2026-03-20T07:57:13.569Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:57:13.579Z: GET /api/cards/my-card
+[INFO] 2026-03-20T07:57:13.590Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:57:13.602Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-20T07:57:27.974Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T07:57:27.991Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-20T07:57:45.179Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:57:45.199Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:57:47.805Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:57:47.840Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:57:47.847Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:57:47.870Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:57:47.877Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:57:47.897Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:57:49.838Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:57:49.862Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-20T07:57:54.420Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:57:54.457Z: GET /api/banker/stats
+[INFO] 2026-03-20T07:57:54.465Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:57:54.487Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:57:54.490Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-20T07:57:54.511Z: GET /api/banker/customers
+[INFO] 2026-03-20T07:57:57.439Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:57:57.467Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-20T07:58:16.055Z: ✅ Server running on port 5000
+[INFO] 2026-03-20T07:58:16.056Z: ✅ Environment: development
+[INFO] 2026-03-20T07:58:16.057Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-23T08:52:55.596Z: ✅ Server running on port 5000
+[INFO] 2026-03-23T08:52:55.598Z: ✅ Environment: development
+[INFO] 2026-03-23T08:52:55.598Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-23T08:53:25.302Z: GET /api/banker/stats
+[INFO] 2026-03-23T08:53:25.629Z: GET /api/banker/stats
+[INFO] 2026-03-23T08:53:25.648Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T08:53:25.698Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T08:53:25.705Z: GET /api/banker/customers
+[INFO] 2026-03-23T08:53:25.802Z: GET /api/banker/customers
+[INFO] 2026-03-23T08:53:37.154Z: GET /api/cards/my-card
+[INFO] 2026-03-23T08:53:37.198Z: GET /api/cards/my-card
+[INFO] 2026-03-23T08:53:37.211Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T08:53:37.233Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T08:57:01.652Z: GET /api/cards/my-card
+[INFO] 2026-03-23T08:57:01.664Z: GET /api/cards/my-card
+[INFO] 2026-03-23T08:57:01.675Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T08:57:01.695Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T08:57:13.140Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-23T08:57:13.158Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-23T09:02:05.807Z: GET /api/banker/stats
+[INFO] 2026-03-23T09:02:05.842Z: GET /api/banker/stats
+[INFO] 2026-03-23T09:02:05.877Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T09:02:05.940Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-23T09:02:05.954Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-23T09:02:06.019Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T09:02:06.165Z: GET /api/banker/customers
+[INFO] 2026-03-23T09:02:06.182Z: GET /api/banker/customers
+[INFO] 2026-03-23T09:02:12.918Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-23T09:02:12.971Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-23T09:02:24.252Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:24.265Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:24.274Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:02:24.291Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:02:29.941Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:29.953Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:29.965Z: GET /api/billing/current-bill
+[INFO] 2026-03-23T09:02:29.976Z: GET /api/billing/current-bill
+[INFO] 2026-03-23T09:02:38.028Z: POST /api/payments/make-payment
+[INFO] 2026-03-23T09:02:40.316Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:40.329Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:40.338Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:02:40.355Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:02:53.111Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:53.121Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:02:53.129Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:02:53.144Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:02:58.547Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-23T09:02:58.564Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-23T09:03:22.346Z: GET /api/banker/stats
+[INFO] 2026-03-23T09:03:22.380Z: GET /api/banker/stats
+[INFO] 2026-03-23T09:03:22.391Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T09:03:22.411Z: GET /api/banker/customers
+[INFO] 2026-03-23T09:03:22.415Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T09:03:22.436Z: GET /api/banker/customers
+[INFO] 2026-03-23T09:03:26.073Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-23T09:03:26.099Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-23T09:03:40.260Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-23T09:03:40.280Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-23T09:04:20.436Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:04:20.450Z: GET /api/cards/my-card
+[INFO] 2026-03-23T09:04:20.457Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T09:04:20.474Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-23T10:03:14.701Z: GET /api/banker/stats
+[INFO] 2026-03-23T10:03:14.821Z: GET /api/banker/stats
+[INFO] 2026-03-23T10:03:14.830Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T10:03:14.855Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-23T10:03:14.860Z: GET /api/banker/customers
+[INFO] 2026-03-23T10:03:14.890Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:14:38.651Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:14:38.653Z: ✅ Environment: development
+[INFO] 2026-03-30T04:14:38.656Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:22:43.366Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:22:43.369Z: ✅ Environment: development
+[INFO] 2026-03-30T04:22:43.370Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:22:51.708Z: POST /api/auth/login
+[INFO] 2026-03-30T04:25:17.124Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:25:17.125Z: ✅ Environment: development
+[INFO] 2026-03-30T04:25:17.126Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:25:20.624Z: POST /api/auth/login
+[INFO] 2026-03-30T04:26:52.429Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:26:52.431Z: ✅ Environment: development
+[INFO] 2026-03-30T04:26:52.431Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:26:56.064Z: POST /api/auth/login
+[INFO] 2026-03-30T04:27:13.080Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:27:13.081Z: ✅ Environment: development
+[INFO] 2026-03-30T04:27:13.082Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:27:14.695Z: POST /api/auth/login
+[INFO] 2026-03-30T04:29:08.433Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:29:08.434Z: ✅ Environment: development
+[INFO] 2026-03-30T04:29:08.435Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:29:10.379Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:29:10.382Z: ✅ Environment: development
+[INFO] 2026-03-30T04:29:10.393Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:29:12.558Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:29:12.560Z: ✅ Environment: development
+[INFO] 2026-03-30T04:29:12.562Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:29:16.424Z: POST /api/auth/login
+[INFO] 2026-03-30T04:31:14.388Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:31:14.389Z: ✅ Environment: development
+[INFO] 2026-03-30T04:31:14.390Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:31:28.057Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:31:28.060Z: ✅ Environment: development
+[INFO] 2026-03-30T04:31:28.061Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:31:30.288Z: POST /api/auth/login
+[INFO] 2026-03-30T04:33:27.861Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:33:27.862Z: ✅ Environment: development
+[INFO] 2026-03-30T04:33:27.865Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:33:34.580Z: POST /api/auth/login
+[INFO] 2026-03-30T04:34:20.438Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:34:20.439Z: ✅ Environment: development
+[INFO] 2026-03-30T04:34:20.440Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:35:24.829Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:35:24.830Z: ✅ Environment: development
+[INFO] 2026-03-30T04:35:24.831Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:35:30.299Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:35:30.301Z: ✅ Environment: development
+[INFO] 2026-03-30T04:35:30.302Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:35:43.885Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:35:43.887Z: ✅ Environment: development
+[INFO] 2026-03-30T04:35:43.888Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:35:47.795Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:35:47.798Z: ✅ Environment: development
+[INFO] 2026-03-30T04:35:47.799Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:35:54.681Z: POST /api/auth/login
+[INFO] 2026-03-30T04:37:04.511Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:37:04.515Z: ✅ Environment: development
+[INFO] 2026-03-30T04:37:04.516Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:37:12.102Z: POST /api/auth/login
+[INFO] 2026-03-30T04:39:13.228Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:39:13.229Z: ✅ Environment: development
+[INFO] 2026-03-30T04:39:13.230Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:39:55.791Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:39:55.876Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:39:55.899Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:39:56.015Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:40:01.348Z: POST /api/auth/login
+[INFO] 2026-03-30T04:40:20.734Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:40:20.753Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:40:20.769Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:40:20.798Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:40:31.949Z: POST /api/auth/login
+[INFO] 2026-03-30T04:40:34.484Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:40:34.500Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:40:34.514Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:40:34.545Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:41:00.202Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:41:00.204Z: ✅ Environment: development
+[INFO] 2026-03-30T04:41:00.205Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:41:54.183Z: ✅ Server running on port 5000
+[INFO] 2026-03-30T04:41:54.185Z: ✅ Environment: development
+[INFO] 2026-03-30T04:41:54.186Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-03-30T04:42:09.941Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:42:09.969Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:42:31.433Z: POST /api/banker/login
+[INFO] 2026-03-30T04:42:31.883Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:42:31.938Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:42:31.956Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-30T04:42:31.998Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:42:32.007Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-30T04:42:32.097Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:42:40.021Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-30T04:42:40.068Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-30T04:42:50.776Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:42:50.812Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:42:50.823Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-30T04:42:50.857Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:42:50.863Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-30T04:42:50.895Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:42:53.835Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-30T04:42:53.863Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-30T04:44:36.325Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-30T04:44:36.345Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-03-30T04:44:36.428Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:44:36.441Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:44:36.516Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:44:36.532Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:45:30.013Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:45:30.029Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:45:30.041Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:45:30.065Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:46:21.836Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:46:21.847Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:46:21.860Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:46:21.885Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:47:03.543Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-30T04:47:03.575Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-03-30T04:49:02.101Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:49:02.116Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:49:02.128Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:49:02.150Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:49:12.362Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:49:12.376Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:49:12.386Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:49:12.408Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:49:24.294Z: POST /api/auth/login
+[INFO] 2026-03-30T04:52:26.455Z: POST /api/orders
+[INFO] 2026-03-30T04:52:34.651Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:52:34.666Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:52:34.678Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:52:34.697Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:52:58.471Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:52:58.487Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:52:58.506Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:52:58.519Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:53:13.006Z: POST /api/payments/make-payment
+[INFO] 2026-03-30T04:53:15.171Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:53:15.186Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:53:15.197Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:53:15.220Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:54:07.350Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:07.365Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:07.378Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:54:07.394Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:54:15.396Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:15.411Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:15.427Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:54:15.452Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:54:18.995Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:19.009Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:19.020Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:54:19.036Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:54:25.158Z: POST /api/payments/make-payment
+[INFO] 2026-03-30T04:54:27.249Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:27.263Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:27.272Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:54:27.295Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:54:54.041Z: POST /api/auth/login
+[INFO] 2026-03-30T04:54:58.629Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:58.647Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:54:58.662Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:54:58.686Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:55:04.766Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:04.782Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:04.793Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:55:04.809Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:55:15.479Z: POST /api/payments/make-payment
+[INFO] 2026-03-30T04:55:17.556Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:17.570Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:17.582Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:55:17.604Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:55:34.234Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:34.249Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:34.259Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:55:34.275Z: GET /api/billing/current-bill
+[INFO] 2026-03-30T04:55:41.383Z: POST /api/payments/make-payment
+[INFO] 2026-03-30T04:55:43.478Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:43.491Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:43.503Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:55:43.524Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:55:45.146Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:45.160Z: GET /api/cards/my-card
+[INFO] 2026-03-30T04:55:45.170Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:55:45.193Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T04:58:49.660Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:58:49.698Z: GET /api/banker/stats
+[INFO] 2026-03-30T04:58:49.709Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-30T04:58:49.733Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:58:49.746Z: GET /api/banker/pending-transactions
+[INFO] 2026-03-30T04:58:49.784Z: GET /api/banker/customers
+[INFO] 2026-03-30T04:58:52.663Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-30T04:58:52.692Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-30T05:00:23.479Z: GET /api/cards/my-card
+[INFO] 2026-03-30T05:00:23.491Z: GET /api/cards/my-card
+[INFO] 2026-03-30T05:00:23.507Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T05:00:23.530Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T05:01:30.170Z: POST /api/auth/login
+[INFO] 2026-03-30T05:02:44.387Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-30T05:02:44.415Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-03-30T05:02:50.117Z: GET /api/cards/my-card
+[INFO] 2026-03-30T05:02:50.133Z: GET /api/cards/my-card
+[INFO] 2026-03-30T05:02:50.143Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T05:02:50.166Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-03-30T05:02:53.996Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-03-30T05:02:54.029Z: GET /api/transactions/my-transactions?page=1&limit=20
+[INFO] 2026-04-02T11:31:32.777Z: ✅ Server running on port 5000
+[INFO] 2026-04-02T11:31:32.778Z: ✅ Environment: development
+[INFO] 2026-04-02T11:31:32.779Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-04-02T11:32:49.917Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:32:50.154Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:32:50.187Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:32:50.228Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:32:50.236Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:32:50.345Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:34:10.815Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:34:10.852Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:34:10.874Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:34:10.913Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:34:26.434Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:34:26.454Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:34:26.471Z: GET /api/billing/current-bill
+[INFO] 2026-04-02T11:34:26.515Z: GET /api/billing/current-bill
+[INFO] 2026-04-02T11:34:35.818Z: POST /api/payments/make-payment
+[INFO] 2026-04-02T11:34:38.032Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:34:38.053Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:34:38.068Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:34:38.101Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:34:54.912Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-04-02T11:34:54.942Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-04-02T11:35:10.910Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T11:35:10.943Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T11:35:42.070Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:35:42.083Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:35:42.101Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:35:42.129Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:35:47.211Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-04-02T11:35:47.233Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-04-02T11:36:25.255Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:36:25.274Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:36:25.286Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:36:25.312Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:36:33.732Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:36:33.780Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:36:33.793Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:36:33.828Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:36:33.839Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:36:33.861Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:36:35.382Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-04-02T11:36:35.413Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-04-02T11:37:03.826Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:37:03.840Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:37:03.860Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:37:03.891Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:37:17.509Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:37:17.521Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:37:17.532Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:37:17.552Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:37:39.919Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:37:39.958Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:37:39.973Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:37:40.010Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:37:40.018Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:37:40.044Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:38:03.624Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T11:38:03.654Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T11:38:25.480Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:38:25.494Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:38:25.510Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:38:25.540Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:38:34.866Z: POST /api/auth/login
+[INFO] 2026-04-02T11:38:37.006Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:38:37.032Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:38:37.050Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:38:37.079Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:38:45.950Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:38:45.979Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:38:45.997Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:38:46.025Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:39:55.392Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:39:55.408Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:39:55.422Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:39:55.446Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:40:49.677Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:40:49.711Z: GET /api/banker/stats
+[INFO] 2026-04-02T11:40:49.723Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:40:49.759Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:40:49.766Z: GET /api/banker/pending-transactions
+[INFO] 2026-04-02T11:40:49.792Z: GET /api/banker/customers
+[INFO] 2026-04-02T11:41:36.602Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:41:36.618Z: GET /api/cards/my-card
+[INFO] 2026-04-02T11:41:36.638Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:41:36.664Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-04-02T11:42:37.981Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T11:42:38.011Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T12:19:52.310Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T12:19:52.443Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T12:48:40.173Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T12:48:40.230Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-04-02T12:48:54.402Z: ✅ Server running on port 5000
+[INFO] 2026-04-02T12:48:54.405Z: ✅ Environment: development
+[INFO] 2026-04-02T12:48:54.407Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-06-09T06:52:46.602Z: ✅ Server running on port 5000
+[INFO] 2026-06-09T06:52:46.606Z: ✅ Environment: development
+[INFO] 2026-06-09T06:52:46.608Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-06-09T06:54:17.409Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:54:17.449Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:56:05.567Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:56:05.581Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:56:35.734Z: POST /api/auth/login
+[INFO] 2026-06-09T06:56:47.636Z: POST /api/auth/login
+[INFO] 2026-06-09T06:56:52.590Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:56:52.658Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:56:52.673Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:56:52.808Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:57:08.711Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:57:08.733Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:57:08.759Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:57:08.784Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:57:23.767Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-06-09T06:57:23.798Z: GET /api/transactions/my-transactions?page=1&limit=100
+[INFO] 2026-06-09T06:58:01.003Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:01.020Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:01.030Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:58:01.053Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:58:11.345Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:11.360Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:11.373Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T06:58:11.411Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T06:58:36.895Z: POST /api/payments/make-payment
+[INFO] 2026-06-09T06:58:39.226Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:39.242Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:39.254Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:58:39.277Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:58:48.363Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:48.376Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:48.397Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:58:48.426Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:58:56.477Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:56.495Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:58:56.509Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T06:58:56.524Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T06:59:20.315Z: POST /api/payments/make-payment
+[INFO] 2026-06-09T06:59:22.464Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:59:22.476Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:59:22.489Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:59:22.512Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:59:42.175Z: POST /api/auth/login
+[INFO] 2026-06-09T06:59:44.831Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:59:44.845Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:59:44.862Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:59:44.883Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T06:59:51.515Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:59:51.529Z: GET /api/cards/my-card
+[INFO] 2026-06-09T06:59:51.537Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T06:59:51.551Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T07:00:01.338Z: POST /api/payments/make-payment
+[INFO] 2026-06-09T07:00:03.445Z: GET /api/cards/my-card
+[INFO] 2026-06-09T07:00:03.459Z: GET /api/cards/my-card
+[INFO] 2026-06-09T07:00:03.471Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T07:00:03.495Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T07:00:04.219Z: GET /api/cards/my-card
+[INFO] 2026-06-09T07:00:04.233Z: GET /api/cards/my-card
+[INFO] 2026-06-09T07:00:04.243Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T07:00:04.259Z: GET /api/billing/current-bill
+[INFO] 2026-06-09T07:00:06.404Z: GET /api/cards/my-card
+[INFO] 2026-06-09T07:00:06.420Z: GET /api/cards/my-card
+[INFO] 2026-06-09T07:00:06.426Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-09T07:00:06.452Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:29:54.418Z: ✅ Server running on port 5000
+[INFO] 2026-06-10T06:29:54.421Z: ✅ Environment: development
+[INFO] 2026-06-10T06:29:54.423Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-06-10T06:30:03.409Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:03.440Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:09.671Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:30:09.846Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:30:09.868Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:30:10.021Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:30:16.737Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:16.746Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:17.788Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:17.794Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:17.975Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:17.985Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:30:47.387Z: POST /api/banker/login
+[INFO] 2026-06-10T06:31:56.195Z: POST /api/banker/login
+[INFO] 2026-06-10T06:31:56.627Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:31:56.691Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:31:56.712Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:31:56.760Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:31:56.769Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:31:56.863Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:32:08.356Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T06:32:08.409Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T06:32:26.601Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:32:26.638Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:32:26.651Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:32:26.684Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:32:26.691Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:32:26.721Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:32:29.688Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T06:32:29.722Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T06:33:27.242Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:33:27.259Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:33:27.271Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T06:33:27.290Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T06:34:51.579Z: POST /api/payments/make-payment
+[INFO] 2026-06-10T06:34:53.866Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:34:53.879Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:34:53.895Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:34:53.916Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:35:35.614Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:35:35.628Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:35:35.640Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:35:35.661Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:35:40.152Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:35:40.186Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:35:40.199Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:35:40.233Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:35:40.240Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:35:40.263Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:35:43.069Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:35:43.105Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:35:43.111Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:35:43.137Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:35:43.150Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:35:43.176Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:35:45.680Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T06:35:45.717Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T06:35:49.877Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:35:49.913Z: GET /api/banker/stats
+[INFO] 2026-06-10T06:35:49.925Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:35:49.955Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:35:49.960Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T06:35:50.021Z: GET /api/banker/customers
+[INFO] 2026-06-10T06:35:51.889Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T06:35:51.920Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T06:36:47.638Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:36:47.654Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:36:47.671Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T06:36:47.689Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T06:37:17.330Z: POST /api/payments/make-payment
+[INFO] 2026-06-10T06:37:19.443Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:37:19.460Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:37:19.470Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:37:19.502Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:37:29.026Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:37:29.043Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:37:29.054Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T06:37:29.065Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T06:39:30.911Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:39:30.927Z: GET /api/cards/my-card
+[INFO] 2026-06-10T06:39:30.936Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T06:39:30.958Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:16:25.951Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T07:16:25.999Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T07:16:26.639Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:16:26.655Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:16:26.726Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:16:26.751Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:17:35.084Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T07:17:35.103Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-06-10T07:17:35.127Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:17:35.137Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:17:35.150Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:17:35.161Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:21:38.976Z: ✅ Server running on port 5000
+[INFO] 2026-06-10T07:21:38.979Z: ✅ Environment: development
+[INFO] 2026-06-10T07:21:38.980Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-06-10T07:32:32.657Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:32:32.712Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:32:32.730Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:32:32.763Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:33:31.160Z: ✅ Server running on port 5000
+[INFO] 2026-06-10T07:33:31.162Z: ✅ Environment: development
+[INFO] 2026-06-10T07:33:31.164Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-06-10T07:34:04.862Z: GET /api/banker/stats
+[INFO] 2026-06-10T07:34:04.969Z: GET /api/banker/stats
+[INFO] 2026-06-10T07:34:04.990Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T07:34:05.048Z: GET /api/banker/customers
+[INFO] 2026-06-10T07:34:05.059Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T07:34:05.122Z: GET /api/banker/customers
+[INFO] 2026-06-10T07:34:14.973Z: GET /api/banker/stats
+[INFO] 2026-06-10T07:34:15.008Z: GET /api/banker/stats
+[INFO] 2026-06-10T07:34:15.019Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T07:34:15.051Z: GET /api/banker/customers
+[INFO] 2026-06-10T07:34:15.057Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T07:34:15.083Z: GET /api/banker/customers
+[INFO] 2026-06-10T07:35:23.834Z: POST /api/banker/login
+[INFO] 2026-06-10T07:35:24.135Z: GET /api/banker/stats
+[INFO] 2026-06-10T07:35:24.169Z: GET /api/banker/stats
+[INFO] 2026-06-10T07:35:24.178Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T07:35:24.206Z: GET /api/banker/customers
+[INFO] 2026-06-10T07:35:24.212Z: GET /api/banker/pending-transactions
+[INFO] 2026-06-10T07:35:24.242Z: GET /api/banker/customers
+[INFO] 2026-06-10T07:35:29.615Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T07:35:29.648Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T07:36:19.835Z: POST /api/auth/login
+[INFO] 2026-06-10T07:36:26.003Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:36:26.016Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:36:26.029Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:36:26.055Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-06-10T07:36:30.292Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:36:30.305Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:36:30.324Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T07:36:30.338Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T07:36:30.349Z: GET /api/payments/history
+[INFO] 2026-06-10T07:36:30.362Z: GET /api/payments/history
+[INFO] 2026-06-10T07:44:20.913Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:44:20.927Z: GET /api/cards/my-card
+[INFO] 2026-06-10T07:44:20.959Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T07:44:21.002Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T07:44:21.150Z: GET /api/payments/history
+[INFO] 2026-06-10T07:44:21.192Z: GET /api/payments/history
+[INFO] 2026-06-10T07:44:21.463Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T07:44:21.493Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T08:07:21.232Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T08:07:21.266Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T08:07:22.053Z: GET /api/cards/my-card
+[INFO] 2026-06-10T08:07:22.080Z: GET /api/cards/my-card
+[INFO] 2026-06-10T08:07:22.195Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T08:07:22.212Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T08:07:22.266Z: GET /api/payments/history
+[INFO] 2026-06-10T08:07:22.272Z: GET /api/payments/history
+[INFO] 2026-06-10T08:10:43.792Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T08:10:43.808Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-06-10T08:10:44.102Z: GET /api/cards/my-card
+[INFO] 2026-06-10T08:10:44.112Z: GET /api/cards/my-card
+[INFO] 2026-06-10T08:10:46.862Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T08:10:46.873Z: GET /api/billing/current-bill
+[INFO] 2026-06-10T08:10:47.235Z: GET /api/payments/history
+[INFO] 2026-06-10T08:10:47.243Z: GET /api/payments/history
+[INFO] 2026-07-07T14:08:05.917Z: ✅ Server running on port 5000
+[INFO] 2026-07-07T14:08:05.919Z: ✅ Environment: development
+[INFO] 2026-07-07T14:08:05.920Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-07T14:08:32.439Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:08:32.478Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:08:52.339Z: POST /api/auth/login
+[INFO] 2026-07-07T14:08:58.781Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:08:58.823Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:08:58.835Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-07T14:08:58.914Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-07T14:09:33.736Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:09:33.743Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:09:37.215Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:09:37.225Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:09:54.483Z: POST /api/banker/login
+[INFO] 2026-07-07T14:10:54.776Z: POST /api/banker/login
+[INFO] 2026-07-07T14:10:55.068Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:10:55.112Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:10:55.123Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-07T14:10:55.151Z: GET /api/banker/customers
+[INFO] 2026-07-07T14:10:55.155Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-07T14:10:55.215Z: GET /api/banker/customers
+[INFO] 2026-07-07T14:11:00.512Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-07T14:11:00.562Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-07T14:11:18.654Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:11:18.690Z: GET /api/banker/stats
+[INFO] 2026-07-07T14:11:18.700Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-07T14:11:18.723Z: GET /api/banker/customers
+[INFO] 2026-07-07T14:11:18.735Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-07T14:11:18.757Z: GET /api/banker/customers
+[INFO] 2026-07-07T14:11:22.474Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-07T14:11:22.502Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-07T14:11:57.295Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:11:57.309Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:11:57.318Z: GET /api/billing/current-bill
+[INFO] 2026-07-07T14:11:57.332Z: GET /api/billing/current-bill
+[INFO] 2026-07-07T14:11:57.340Z: GET /api/payments/history
+[INFO] 2026-07-07T14:11:57.463Z: GET /api/payments/history
+[INFO] 2026-07-07T14:13:10.222Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:13:10.231Z: GET /api/cards/my-card
+[INFO] 2026-07-07T14:13:10.253Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-07T14:13:10.271Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-07T15:14:22.486Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-07T15:14:22.523Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T08:11:14.136Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T08:11:14.358Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T08:21:56.044Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T08:21:56.075Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T09:13:14.956Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T09:13:14.985Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T09:41:16.541Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-08T09:41:16.565Z: GET /api/banker/customer/69bb8c1e3bd8b0c43e86dc03
+[INFO] 2026-07-10T06:04:12.903Z: ✅ Server running on port 5000
+[INFO] 2026-07-10T06:04:12.905Z: ✅ Environment: development
+[INFO] 2026-07-10T06:04:12.905Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-10T06:04:29.017Z: GET /api/banker/stats
+[INFO] 2026-07-10T06:04:29.306Z: GET /api/banker/stats
+[INFO] 2026-07-10T06:04:29.324Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-10T06:04:29.366Z: GET /api/banker/customers
+[INFO] 2026-07-10T06:04:29.374Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-10T06:04:29.464Z: GET /api/banker/customers
+[INFO] 2026-07-10T06:04:34.487Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T06:04:34.559Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T06:36:20.160Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T06:36:20.257Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T07:05:10.057Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T07:05:10.091Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T08:36:25.025Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T08:36:25.344Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T09:06:28.602Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-10T09:06:28.622Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-24T08:36:21.821Z: ✅ Server running on port 5000
+[INFO] 2026-07-24T08:36:21.823Z: ✅ Environment: development
+[INFO] 2026-07-24T08:36:21.824Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-24T08:37:13.221Z: GET /api/banker/stats
+[INFO] 2026-07-24T08:37:13.244Z: GET /api/banker/stats
+[INFO] 2026-07-24T08:37:26.059Z: GET /api/banker/stats
+[INFO] 2026-07-24T08:37:26.071Z: GET /api/banker/stats
+[INFO] 2026-07-24T08:38:39.329Z: GET /api/cards/my-card
+[INFO] 2026-07-24T08:38:39.340Z: GET /api/cards/my-card
+[INFO] 2026-07-24T08:39:05.329Z: POST /api/auth/login
+[INFO] 2026-07-24T08:39:13.498Z: GET /api/cards/my-card
+[INFO] 2026-07-24T08:39:13.548Z: GET /api/cards/my-card
+[INFO] 2026-07-24T08:39:13.562Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-24T08:39:13.646Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-24T08:42:15.077Z: POST /api/banker/login
+[INFO] 2026-07-24T08:42:15.403Z: GET /api/banker/stats
+[INFO] 2026-07-24T08:42:15.456Z: GET /api/banker/stats
+[INFO] 2026-07-24T08:42:15.469Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-24T08:42:15.502Z: GET /api/banker/customers
+[INFO] 2026-07-24T08:42:15.507Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-24T08:42:15.580Z: GET /api/banker/customers
+[INFO] 2026-07-24T08:42:26.996Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-24T08:42:27.043Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6

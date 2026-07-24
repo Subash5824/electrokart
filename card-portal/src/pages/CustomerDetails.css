@@ -1,0 +1,256 @@
+.customer-details-page {
+  min-height: 100vh;
+  background-color: #0A1929;
+  padding: 24px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.page-header h1 {
+  color: #2E7D32;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.back-link {
+  color: #B0BEC5;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  color: #2E7D32;
+}
+
+.block-card-btn {
+  padding: 10px 24px;
+  background-color: #D32F2F;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.block-card-btn:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+/* Customer Info Section */
+.customer-info-section,
+.credit-card-section,
+.transactions-section {
+  background-color: #1E2A3A;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #334155;
+}
+
+h2 {
+  color: #2E7D32;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-item label {
+  color: #B0BEC5;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-item span {
+  color: white;
+  font-size: 16px;
+}
+
+/* Credit Card Section */
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #0A1929;
+  border-radius: 8px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-item label {
+  color: #B0BEC5;
+  font-size: 12px;
+}
+
+.card-number {
+  font-family: monospace;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.card-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-status.active {
+  background-color: rgba(46, 125, 50, 0.1);
+  color: #2E7D32;
+}
+
+.card-status.blocked {
+  background-color: rgba(211, 47, 47, 0.1);
+  color: #D32F2F;
+}
+
+/* Balance Section */
+.balance-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.balance-card {
+  background-color: #0A1929;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.balance-card label {
+  display: block;
+  color: #B0BEC5;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.balance-card .limit {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.balance-card .outstanding {
+  color: #ED6C02;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.balance-card .available {
+  color: #2E7D32;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Transactions Table */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th {
+  text-align: left;
+  padding: 12px;
+  color: #B0BEC5;
+  font-weight: 500;
+  border-bottom: 2px solid #334155;
+}
+
+.transactions-table td {
+  padding: 12px;
+  border-bottom: 1px solid #334155;
+  color: white;
+}
+
+.transactions-table td.debit {
+  color: #ED6C02;
+  font-weight: 600;
+}
+
+.transactions-table td.credit {
+  color: #2E7D32;
+  font-weight: 600;
+}
+
+.tx-status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.tx-status.pending {
+  background-color: rgba(237, 108, 2, 0.1);
+  color: #ED6C02;
+}
+
+.tx-status.approved {
+  background-color: rgba(46, 125, 50, 0.1);
+  color: #2E7D32;
+}
+
+.tx-status.declined {
+  background-color: rgba(211, 47, 47, 0.1);
+  color: #D32F2F;
+}
+
+.no-card,
+.no-transactions {
+  color: #B0BEC5;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .balance-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .block-card-btn {
+    width: 100%;
+  }
+}

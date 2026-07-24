@@ -1,0 +1,151 @@
+@import '../styles/colors.css';
+
+.bill-payment {
+  background: var(--bank-card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid var(--bank-border);
+}
+
+.payment-title {
+  color: var(--bank-text);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  color: var(--bank-muted);
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--bank-bg);
+  border: 1px solid var(--bank-border);
+  border-radius: 0.5rem;
+  color: var(--bank-text);
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--bank-accent);
+}
+
+.quick-amounts {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.amount-btn {
+  flex: 1;
+  padding: 0.75rem;
+  background: var(--bank-bg);
+  border: 1px solid var(--bank-border);
+  color: var(--bank-text);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.amount-btn:hover {
+  border-color: var(--bank-accent);
+  color: var(--bank-accent);
+}
+
+.payment-methods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.method-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: var(--bank-bg);
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.method-option.selected {
+  border-color: var(--bank-accent);
+  background: rgba(46, 125, 50, 0.1);
+}
+
+.method-option input[type="radio"] {
+  display: none;
+}
+
+.method-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.method-name {
+  color: var(--bank-text);
+  font-size: 0.875rem;
+}
+
+.payment-summary {
+  background: var(--bank-bg);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  color: var(--bank-muted);
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+}
+
+.summary-value {
+  color: var(--bank-accent);
+  font-weight: 600;
+}
+
+.pay-btn {
+  width: 100%;
+  padding: 1rem;
+  background: var(--bank-accent);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.pay-btn:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.pay-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bill-payment-empty {
+  text-align: center;
+  padding: 3rem;
+  background: var(--bank-card);
+  border-radius: 1rem;
+  color: var(--bank-muted);
+}

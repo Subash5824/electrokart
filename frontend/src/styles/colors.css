@@ -1,0 +1,27 @@
+/* colors.css - Enhanced color scheme */
+:root {
+  /* Primary Colors - Your original scheme */
+  --bg-main: #0B0F1A;
+  --bg-header: #111827;
+  --bg-card: #1A2238;
+  --primary: #00A8FF;
+  --highlight: #FFD400;
+  --glow: #00F5FF;
+  --success: #00FF9C;
+  --error: #FF4C4C;
+  
+  /* Extended Colors */
+  --text-white: #FFFFFF;
+  --text-gray: #9CA3AF;
+  --text-light: #E5E7EB;
+  --bg-gradient-start: #0B0F1A;
+  --bg-gradient-end: #1A1F2F;
+  --card-hover: #252F44;
+  --border-color: rgba(0, 168, 255, 0.2);
+  --shadow-color: rgba(0, 168, 255, 0.1);
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #00A8FF, #0066CC);
+  --gradient-gold: linear-gradient(135deg, #FFD400, #FFAA00);
+  --gradient-dark: linear-gradient(135deg, #111827, #1A2238);
+}

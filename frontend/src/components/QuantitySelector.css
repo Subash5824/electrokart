@@ -1,0 +1,68 @@
+/* QuantitySelector.css */
+@import '../styles/colors.css';
+
+.quantity-selector {
+  margin: 20px 0;
+}
+
+.quantity-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-gray);
+  font-size: 14px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-btn {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-header);
+  color: var(--text-white);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.quantity-btn:hover:not(:disabled) {
+  background-color: var(--primary);
+}
+
+.quantity-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quantity-input {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: var(--bg-main);
+  color: var(--highlight);
+  border: 1px solid var(--bg-header);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.quantity-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.quantity-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.text-gray {
+  color: var(--text-gray);
+}
