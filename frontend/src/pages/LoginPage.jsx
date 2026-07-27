@@ -1,60 +1,62 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import authService from '../services/authService';
-import cartService from '../services/cartService';
-import './LoginPage.css';
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import authService from "../services/authService";
+import cartService from "../services/cartService";
+import "./LoginPage.css";
 
 const LoginPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    email: '',
-    password: ''
+    email: "",
+    password: "",
   });
   const [errors, setErrors] = useState({});
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [serverError, setServerError] = useState('');
+  const [serverError, setServerError] = useState("");
+
+  // ✅ Clear form on mount to remove autofill
+  useEffect(() => {
+    setFormData({ email: "", password: "" });
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
-    // Clear error for this field
     if (errors[name]) {
-      setErrors({ ...errors, [name]: '' });
+      setErrors({ ...errors, [name]: "" });
     }
-    // Clear server error when user types
     if (serverError) {
-      setServerError('');
+      setServerError("");
     }
   };
 
   const validateForm = () => {
     const newErrors = {};
-    
+
     if (!formData.email) {
-      newErrors.email = 'Email is required';
+      newErrors.email = "Email is required";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = 'Email is invalid';
+      newErrors.email = "Email is invalid";
     }
-    
+
     if (!formData.password) {
-      newErrors.password = 'Password is required';
+      newErrors.password = "Password is required";
     } else if (formData.password.length < 6) {
-      newErrors.password = 'Password must be at least 6 characters';
+      newErrors.password = "Password must be at least 6 characters";
     }
-    
+
     return newErrors;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Validate form
+
     const newErrors = validateForm();
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -62,38 +64,38 @@ const LoginPage = () => {
     }
 
     setLoading(true);
-    setServerError('');
+    setServerError("");
 
     try {
-      // Call login API
-      const response = await authService.login(formData.email, formData.password);
-      
+      const response = await authService.login(
+        formData.email,
+        formData.password
+      );
+
       if (response && response.success) {
-        // Check for pending cart item
-        const pendingItem = localStorage.getItem('pendingCartItem');
-        
+        const pendingItem = localStorage.getItem("pendingCartItem");
+
         if (pendingItem) {
           try {
             const item = JSON.parse(pendingItem);
-            // Add to cart
             cartService.addToCart(item.product, item.quantity);
-            localStorage.removeItem('pendingCartItem');
-            // Redirect to cart
-            navigate('/cart');
+            localStorage.removeItem("pendingCartItem");
+            navigate("/cart");
           } catch (cartError) {
-            console.error('Error adding pending item to cart:', cartError);
-            navigate('/');
+            console.error("Error adding pending item to cart:", cartError);
+            navigate("/");
           }
         } else {
-          // No pending item, go to home
-          navigate('/');
+          navigate("/");
         }
       } else {
-        setServerError(response?.message || 'Login failed. Please check your credentials.');
+        setServerError(
+          response?.message || "Login failed. Please check your credentials."
+        );
       }
     } catch (error) {
-      console.error('Login error:', error);
-      setServerError(error.message || 'Login failed. Please try again.');
+      console.error("Login error:", error);
+      setServerError(error.message || "Login failed. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -102,7 +104,7 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <Header />
-      
+
       <main className="container">
         <div className="auth-container">
           <div className="auth-card">
@@ -118,7 +120,12 @@ const LoginPage = () => {
               </div>
             )}
 
-            <form onSubmit={handleSubmit} className="auth-form">
+            {/* ✅ Added autoComplete="off" to form */}
+            <form
+              onSubmit={handleSubmit}
+              className="auth-form"
+              autoComplete="off"
+            >
               <div className="form-group">
                 <label>Email Address</label>
                 <input
@@ -127,23 +134,27 @@ const LoginPage = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="business@example.com"
-                  className={errors.email ? 'error' : ''}
+                  className={errors.email ? "error" : ""}
                   disabled={loading}
+                  autoComplete="off"
                 />
-                {errors.email && <span className="error-message">{errors.email}</span>}
+                {errors.email && (
+                  <span className="error-message">{errors.email}</span>
+                )}
               </div>
 
               <div className="form-group">
                 <label>Password</label>
                 <div className="password-input">
                   <input
-                    type={showPassword ? 'text' : 'password'}
+                    type={showPassword ? "text" : "password"}
                     name="password"
                     value={formData.password}
                     onChange={handleChange}
                     placeholder="••••••••"
-                    className={errors.password ? 'error' : ''}
+                    className={errors.password ? "error" : ""}
                     disabled={loading}
+                    autoComplete="new-password"
                   />
                   <button
                     type="button"
@@ -151,10 +162,12 @@ const LoginPage = () => {
                     onClick={() => setShowPassword(!showPassword)}
                     disabled={loading}
                   >
-                    {showPassword ? '👁️' : '👁️‍🗨️'}
+                    {showPassword ? "👁️" : "👁️‍🗨️"}
                   </button>
                 </div>
-                {errors.password && <span className="error-message">{errors.password}</span>}
+                {errors.password && (
+                  <span className="error-message">{errors.password}</span>
+                )}
               </div>
 
               <div className="form-options">
@@ -166,20 +179,19 @@ const LoginPage = () => {
                 </Link>
               </div>
 
-              <button 
-                type="submit" 
-                className="auth-button"
-                disabled={loading}
-              >
+              <button type="submit" className="auth-button" disabled={loading}>
                 {loading ? (
                   <span className="loading-spinner-small"></span>
                 ) : (
-                  'Login'
+                  "Login"
                 )}
               </button>
 
               <div className="auth-footer">
-                <p>Don't have an account? <Link to="/register">Register as Business</Link></p>
+                <p>
+                  Don't have an account?{" "}
+                  <Link to="/register">Register as Business</Link>
+                </p>
               </div>
             </form>
 
