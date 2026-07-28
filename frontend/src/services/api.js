@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Make sure this points to your running backend
-const API_URL = "https://electrokart-75mh.onrender.com/api";
+const API_URL = "https://electrokart-75mh.onrender.com";
 
 const api = axios.create({
   baseURL: API_URL,
