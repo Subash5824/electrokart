@@ -41,8 +41,7 @@ connectDB();
 // Initialize Express
 const app = express();
 
-// ===== UPDATED CORS CONFIGURATION =====
-// Allow requests from both main store (5173) and card portal (5174)
+// CORS configuration
 const corsOptions = {
   origin: [
     "http://localhost:5173",
@@ -56,7 +55,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-// ===== END OF CORS CONFIGURATION =====
 
 // Other middleware
 app.use(express.json());
@@ -70,21 +68,15 @@ app.use((req, res, next) => {
   logger.info(`${req.method} ${req.url}`);
   next();
 });
-app.get("/test", (req, res) => {
-  res.json({ success: true, message: "Backend is reachable!" });
-});
 
-app.get("/debug-routes", (req, res) => {
-  const routes = [];
-  app._router.stack.forEach((layer) => {
-    if (layer.route) {
-      const methods = Object.keys(layer.route.methods).join(", ").toUpperCase();
-      routes.push(`${methods} ${layer.route.path}`);
-    }
-  });
-  res.json({ routes });
-});
-// Routes
+// ===== ✅ ADD THIS DEBUG SECTION =====
+console.log("🔍 Checking route imports:");
+console.log("📁 Auth routes:", authRoutes ? "✅ Loaded" : "❌ Failed");
+console.log("📁 Product routes:", productRoutes ? "✅ Loaded" : "❌ Failed");
+console.log("📁 Order routes:", orderRoutes ? "✅ Loaded" : "❌ Failed");
+// ... add more if needed
+
+// ===== ✅ ROUTES =====
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/orders", orderRoutes);
@@ -96,6 +88,23 @@ app.use("/api/banker", bankerRoutes);
 app.use("/api/notifications", notificationRoutes);
 
 // Test route
+app.get("/test", (req, res) => {
+  res.json({ success: true, message: "Backend is reachable!" });
+});
+
+// Debug routes
+app.get("/debug-routes", (req, res) => {
+  const routes = [];
+  app._router.stack.forEach((layer) => {
+    if (layer.route) {
+      const methods = Object.keys(layer.route.methods).join(", ").toUpperCase();
+      routes.push(`${methods} ${layer.route.path}`);
+    }
+  });
+  res.json({ routes });
+});
+
+// Root route
 app.get("/", (req, res) => {
   res.json({
     success: true,
@@ -105,7 +114,7 @@ app.get("/", (req, res) => {
   });
 });
 
-// Apply error middleware in order
+// Apply error middleware
 app.use(validationError);
 app.use(duplicateKeyError);
 app.use(castError);
@@ -116,17 +125,11 @@ app.use(errorHandler);
 scheduleBilling();
 
 // Start server
-const PORT = config.port;
+const PORT = config.port || 5000;
 app.listen(PORT, () => {
   logger.info(`✅ Server running on port ${PORT}`);
   logger.info(`✅ Environment: ${config.nodeEnv}`);
   logger.info(`✅ API URL: http://localhost:${PORT}`);
-});
-
-// Handle unhandled promise rejections
-process.on("unhandledRejection", (err) => {
-  logger.error("Unhandled Rejection:", err);
-  process.exit(1);
 });
 
 module.exports = app;
