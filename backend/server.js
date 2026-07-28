@@ -74,6 +74,16 @@ app.get("/test", (req, res) => {
   res.json({ success: true, message: "Backend is reachable!" });
 });
 
+app.get("/debug-routes", (req, res) => {
+  const routes = [];
+  app._router.stack.forEach((layer) => {
+    if (layer.route) {
+      const methods = Object.keys(layer.route.methods).join(", ").toUpperCase();
+      routes.push(`${methods} ${layer.route.path}`);
+    }
+  });
+  res.json({ routes });
+});
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
