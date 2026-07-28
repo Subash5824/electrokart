@@ -1945,3 +1945,247 @@
 [INFO] 2026-07-24T08:42:15.580Z: GET /api/banker/customers
 [INFO] 2026-07-24T08:42:26.996Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
 [INFO] 2026-07-24T08:42:27.043Z: GET /api/banker/customer/69bc28276d858ed88d30f9f6
+[INFO] 2026-07-24T08:57:23.980Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-24T08:57:24.002Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-24T09:33:20.259Z: ✅ Server running on port 5000
+[INFO] 2026-07-24T09:33:20.260Z: ✅ Environment: development
+[INFO] 2026-07-24T09:33:20.261Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-24T09:38:14.445Z: GET /
+[INFO] 2026-07-24T09:38:14.556Z: GET /favicon.ico
+[INFO] 2026-07-25T04:00:12.596Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T04:00:12.598Z: ✅ Environment: development
+[INFO] 2026-07-25T04:00:12.600Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T04:00:12.868Z: GET /api/banker/stats
+[INFO] 2026-07-25T04:00:13.054Z: GET /api/banker/stats
+[INFO] 2026-07-25T04:00:13.064Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T04:00:13.091Z: GET /api/banker/customers
+[INFO] 2026-07-25T04:00:13.094Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T04:00:13.182Z: GET /api/banker/customers
+[INFO] 2026-07-25T04:00:37.048Z: GET /api/cards/my-card
+[INFO] 2026-07-25T04:00:37.089Z: GET /api/cards/my-card
+[INFO] 2026-07-25T04:00:37.105Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-25T04:00:37.134Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-25T04:04:33.087Z: POST /api/auth/register
+[INFO] 2026-07-25T04:04:38.010Z: POST /api/auth/register
+[INFO] 2026-07-25T04:04:39.070Z: POST /api/auth/register
+[INFO] 2026-07-25T04:07:18.404Z: POST /api/auth/register
+[INFO] 2026-07-25T04:07:32.311Z: GET /api/cards/my-card
+[INFO] 2026-07-25T04:07:32.336Z: GET /api/cards/my-card
+[INFO] 2026-07-25T04:08:52.220Z: POST /api/auth/login
+[INFO] 2026-07-25T05:06:29.504Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:06:29.581Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:06:30.009Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:06:30.029Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:06:30.043Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:06:30.084Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:38:24.183Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:38:24.212Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:38:24.230Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:38:24.258Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:38:24.268Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:38:24.282Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:39:58.575Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:39:58.598Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:39:58.935Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:39:58.944Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:39:59.115Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:39:59.127Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:40:31.150Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:40:31.169Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:40:31.177Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:40:31.211Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:40:31.239Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:40:31.313Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:43:36.506Z: POST /api/orders
+[INFO] 2026-07-25T05:43:49.251Z: GET /api/cards/my-card
+[INFO] 2026-07-25T05:43:49.265Z: GET /api/cards/my-card
+[INFO] 2026-07-25T05:43:49.282Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-25T05:43:49.299Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-25T05:44:45.898Z: GET /api/banker/customer/6a643676bab76a428016931d
+[INFO] 2026-07-25T05:44:45.945Z: GET /api/banker/customer/6a643676bab76a428016931d
+[INFO] 2026-07-25T05:44:50.246Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:44:50.282Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:44:50.293Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:44:50.322Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:44:50.327Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:44:50.355Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:46:44.502Z: POST /api/auth/login
+[INFO] 2026-07-25T05:48:13.107Z: POST /api/auth/login
+[INFO] 2026-07-25T05:48:15.318Z: POST /api/auth/login
+[INFO] 2026-07-25T05:48:37.017Z: POST /api/auth/login
+[INFO] 2026-07-25T05:48:50.817Z: POST /api/auth/login
+[INFO] 2026-07-25T05:50:12.796Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T05:50:12.798Z: ✅ Environment: development
+[INFO] 2026-07-25T05:50:12.799Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T05:50:35.726Z: POST /api/auth/login
+[INFO] 2026-07-25T05:51:11.694Z: POST /api/auth/login
+[INFO] 2026-07-25T05:53:18.048Z: POST /api/auth/login
+[INFO] 2026-07-25T05:53:24.674Z: POST /api/auth/login
+[INFO] 2026-07-25T05:53:27.807Z: POST /api/auth/login
+[INFO] 2026-07-25T05:53:32.816Z: POST /api/auth/login
+[INFO] 2026-07-25T05:55:05.992Z: POST /api/auth/login
+[INFO] 2026-07-25T05:58:27.577Z: POST /api/auth/login
+[INFO] 2026-07-25T05:59:04.576Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:59:04.670Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:59:04.692Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:59:04.740Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:59:04.800Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:59:04.932Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:59:50.328Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:59:50.365Z: GET /api/banker/stats
+[INFO] 2026-07-25T05:59:50.406Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:59:50.461Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T05:59:50.484Z: GET /api/banker/customers
+[INFO] 2026-07-25T05:59:50.498Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:04:22.654Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:04:22.684Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:04:22.695Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:04:22.718Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:04:22.722Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:04:22.745Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:07:05.533Z: POST /api/auth/login
+[INFO] 2026-07-25T06:10:31.550Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:10:31.552Z: ✅ Environment: development
+[INFO] 2026-07-25T06:10:31.552Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T06:11:09.444Z: POST /api/auth/login
+[INFO] 2026-07-25T06:24:16.656Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:24:16.704Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:24:16.749Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:24:16.779Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:24:16.794Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:24:16.848Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:25:19.195Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:25:19.221Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:25:19.266Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:25:19.303Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:25:19.312Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:25:19.366Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:41:10.593Z: POST /api/auth/login
+[INFO] 2026-07-25T06:42:15.400Z: POST /api/auth/login
+[INFO] 2026-07-25T06:42:28.192Z: POST /api/auth/login
+[INFO] 2026-07-25T06:45:01.023Z: GET /api/banker/stats
+[INFO] 2026-07-25T06:45:01.064Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:45:01.080Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T06:45:01.087Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:45:01.107Z: GET /api/banker/customers
+[INFO] 2026-07-25T06:45:16.852Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:45:16.854Z: ✅ Environment: development
+[INFO] 2026-07-25T06:45:16.855Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T06:46:37.319Z: POST /api/auth/login
+[INFO] 2026-07-25T06:48:16.335Z: POST /api/auth/login
+[INFO] 2026-07-25T06:49:11.689Z: POST /api/auth/login
+[INFO] 2026-07-25T06:50:14.507Z: POST /api/auth/login
+[INFO] 2026-07-25T06:51:10.766Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:51:10.767Z: ✅ Environment: development
+[INFO] 2026-07-25T06:51:10.768Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T06:51:15.977Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:51:15.980Z: ✅ Environment: development
+[INFO] 2026-07-25T06:51:15.982Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T06:52:14.826Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:52:14.828Z: ✅ Environment: development
+[INFO] 2026-07-25T06:52:14.829Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T06:52:28.508Z: POST /api/auth/login
+[INFO] 2026-07-25T06:58:21.741Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:58:21.749Z: ✅ Environment: development
+[INFO] 2026-07-25T06:58:21.756Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T06:58:59.375Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T06:58:59.377Z: ✅ Environment: development
+[INFO] 2026-07-25T06:58:59.378Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T07:01:36.146Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T07:01:36.148Z: ✅ Environment: development
+[INFO] 2026-07-25T07:01:36.149Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T07:01:55.500Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T07:01:55.502Z: ✅ Environment: development
+[INFO] 2026-07-25T07:01:55.503Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-25T07:02:07.082Z: POST /api/auth/login
+[INFO] 2026-07-25T07:02:49.894Z: POST /api/auth/login
+[INFO] 2026-07-25T07:03:33.392Z: GET /api/cards/my-card
+[INFO] 2026-07-25T07:03:33.409Z: GET /api/cards/my-card
+[INFO] 2026-07-25T07:07:56.941Z: GET /api/cards/my-card
+[INFO] 2026-07-25T07:07:56.962Z: GET /api/cards/my-card
+[INFO] 2026-07-25T07:07:57.006Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-25T07:07:57.031Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-25T07:09:22.465Z: POST /api/orders
+[INFO] 2026-07-25T07:09:48.228Z: GET /api/banker/stats
+[INFO] 2026-07-25T07:09:48.275Z: GET /api/banker/stats
+[INFO] 2026-07-25T07:09:48.286Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T07:09:48.325Z: GET /api/banker/customers
+[INFO] 2026-07-25T07:09:48.334Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T07:09:48.420Z: GET /api/banker/customers
+[INFO] 2026-07-25T08:43:53.245Z: GET /api/banker/stats
+[INFO] 2026-07-25T08:43:53.276Z: GET /api/banker/stats
+[INFO] 2026-07-25T08:43:53.367Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T08:43:53.381Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-25T08:43:53.416Z: GET /api/banker/customers
+[INFO] 2026-07-25T08:43:53.436Z: GET /api/banker/customers
+[INFO] 2026-07-25T08:44:21.442Z: ✅ Server running on port 5000
+[INFO] 2026-07-25T08:44:21.444Z: ✅ Environment: development
+[INFO] 2026-07-25T08:44:21.444Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T04:00:11.030Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T04:00:11.031Z: ✅ Environment: development
+[INFO] 2026-07-27T04:00:11.032Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T04:00:25.908Z: GET /api/banker/stats
+[INFO] 2026-07-27T04:00:26.225Z: GET /api/banker/stats
+[INFO] 2026-07-27T04:00:26.241Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-27T04:00:26.272Z: GET /api/banker/pending-transactions
+[INFO] 2026-07-27T04:00:26.285Z: GET /api/banker/customers
+[INFO] 2026-07-27T04:00:26.350Z: GET /api/banker/customers
+[INFO] 2026-07-27T04:01:16.803Z: GET /api/cards/my-card
+[INFO] 2026-07-27T04:01:16.843Z: GET /api/cards/my-card
+[INFO] 2026-07-27T04:01:16.863Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-27T04:01:16.889Z: GET /api/transactions/my-transactions?page=1&limit=10
+[INFO] 2026-07-27T04:18:57.034Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T04:18:57.036Z: ✅ Environment: development
+[INFO] 2026-07-27T04:18:57.038Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:12:06.079Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:12:06.080Z: ✅ Environment: development
+[INFO] 2026-07-27T09:12:06.080Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:16:08.824Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:16:08.825Z: ✅ Environment: development
+[INFO] 2026-07-27T09:16:08.826Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:26:06.940Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:26:06.942Z: ✅ Environment: development
+[INFO] 2026-07-27T09:26:06.942Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:42:52.121Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:42:52.124Z: ✅ Environment: development
+[INFO] 2026-07-27T09:42:52.124Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:43:56.758Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:43:56.760Z: ✅ Environment: development
+[INFO] 2026-07-27T09:43:56.761Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:57:00.304Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:57:00.306Z: ✅ Environment: development
+[INFO] 2026-07-27T09:57:00.308Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:58:30.114Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:58:30.116Z: ✅ Environment: development
+[INFO] 2026-07-27T09:58:30.116Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T09:59:29.768Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T09:59:29.769Z: ✅ Environment: development
+[INFO] 2026-07-27T09:59:29.769Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T10:00:43.360Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T10:00:43.361Z: ✅ Environment: development
+[INFO] 2026-07-27T10:00:43.361Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T10:04:02.207Z: GET /api/banker/stats
+[INFO] 2026-07-27T10:04:02.350Z: GET /api/banker/stats
+[INFO] 2026-07-27T10:05:38.950Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T10:05:38.953Z: ✅ Environment: development
+[INFO] 2026-07-27T10:05:38.954Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T10:12:26.049Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T10:12:26.051Z: ✅ Environment: development
+[INFO] 2026-07-27T10:12:26.051Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T14:02:39.180Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T14:02:39.181Z: ✅ Environment: development
+[INFO] 2026-07-27T14:02:39.181Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-27T14:02:50.104Z: GET /api/banker/stats
+[INFO] 2026-07-27T14:02:50.284Z: GET /api/banker/stats
+[INFO] 2026-07-27T15:20:39.202Z: GET /api/banker/stats
+[INFO] 2026-07-27T15:20:44.239Z: GET /api/banker/stats
+[INFO] 2026-07-27T16:50:25.954Z: GET /api/banker/stats
+[INFO] 2026-07-27T16:50:39.775Z: ✅ Server running on port 5000
+[INFO] 2026-07-27T16:50:39.776Z: ✅ Environment: development
+[INFO] 2026-07-27T16:50:39.777Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-28T06:18:58.745Z: ✅ Server running on port 5000
+[INFO] 2026-07-28T06:18:58.746Z: ✅ Environment: development
+[INFO] 2026-07-28T06:18:58.746Z: ✅ API URL: http://localhost:5000
+[INFO] 2026-07-28T06:22:56.979Z: ✅ Server running on port 5000
+[INFO] 2026-07-28T06:22:56.981Z: ✅ Environment: development
+[INFO] 2026-07-28T06:22:56.982Z: ✅ API URL: http://localhost:5000

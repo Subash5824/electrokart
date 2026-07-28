@@ -1,30 +1,36 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const cors = require('cors');
-const path = require('path');
+const express = require("express");
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+const cors = require("cors");
+const path = require("path");
 
 // Import configuration
-const connectDB = require('./config/db');
-const config = require('./config/config');
-const logger = require('./config/logger');
+const connectDB = require("./config/db");
+const config = require("./config/config");
+const logger = require("./config/logger");
 
 // Import middleware
-const { notFound, errorHandler, validationError, duplicateKeyError, castError } = require('./middleware/errorMiddleware');
+const {
+  notFound,
+  errorHandler,
+  validationError,
+  duplicateKeyError,
+  castError,
+} = require("./middleware/errorMiddleware");
 
 // Import routes
-const authRoutes = require('./routes/authRoutes');
-const productRoutes = require('./routes/productRoutes');
-const orderRoutes = require('./routes/orderRoutes');
-const cardRoutes = require('./routes/cardRoutes');
-const transactionRoutes = require('./routes/transactionRoutes');
-const billingRoutes = require('./routes/billingRoutes');
-const paymentRoutes = require('./routes/paymentRoutes');
-const bankerRoutes = require('./routes/bankerRoutes');
-const notificationRoutes = require('./routes/notificationRoutes');
+const authRoutes = require("./routes/authRoutes");
+const productRoutes = require("./routes/productRoutes");
+const orderRoutes = require("./routes/orderRoutes");
+const cardRoutes = require("./routes/cardRoutes");
+const transactionRoutes = require("./routes/transactionRoutes");
+const billingRoutes = require("./routes/billingRoutes");
+const paymentRoutes = require("./routes/paymentRoutes");
+const bankerRoutes = require("./routes/bankerRoutes");
+const notificationRoutes = require("./routes/notificationRoutes");
 
 // Import utils
-const { scheduleBilling } = require('./utils/billingScheduler');
+const { scheduleBilling } = require("./utils/billingScheduler");
 
 // Load environment variables
 dotenv.config();
@@ -38,9 +44,15 @@ const app = express();
 // ===== UPDATED CORS CONFIGURATION =====
 // Allow requests from both main store (5173) and card portal (5174)
 const corsOptions = {
-  origin: ['http://localhost:5173', 'http://localhost:5174'],
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://electrokart.vercel.app",
+    "https://electrokart-75mh.onrender.com",
+    "https://electrokart-git-main-subash5824s-projects.vercel.app",
+  ],
   credentials: true,
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
 };
 
 app.use(cors(corsOptions));
@@ -51,7 +63,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static files
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Request logging
 app.use((req, res, next) => {
@@ -60,23 +72,23 @@ app.use((req, res, next) => {
 });
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/products', productRoutes);
-app.use('/api/orders', orderRoutes);
-app.use('/api/cards', cardRoutes);
-app.use('/api/transactions', transactionRoutes);
-app.use('/api/billing', billingRoutes);
-app.use('/api/payments', paymentRoutes);
-app.use('/api/banker', bankerRoutes);
-app.use('/api/notifications', notificationRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/products", productRoutes);
+app.use("/api/orders", orderRoutes);
+app.use("/api/cards", cardRoutes);
+app.use("/api/transactions", transactionRoutes);
+app.use("/api/billing", billingRoutes);
+app.use("/api/payments", paymentRoutes);
+app.use("/api/banker", bankerRoutes);
+app.use("/api/notifications", notificationRoutes);
 
 // Test route
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: 'ElectroKart API is running',
-    version: '1.0.0',
-    environment: config.nodeEnv
+    message: "ElectroKart API is running",
+    version: "1.0.0",
+    environment: config.nodeEnv,
   });
 });
 
@@ -99,8 +111,8 @@ app.listen(PORT, () => {
 });
 
 // Handle unhandled promise rejections
-process.on('unhandledRejection', (err) => {
-  logger.error('Unhandled Rejection:', err);
+process.on("unhandledRejection", (err) => {
+  logger.error("Unhandled Rejection:", err);
   process.exit(1);
 });
 

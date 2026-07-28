@@ -12,14 +12,11 @@ const generateToken = (id) => {
   });
 };
 
-// @desc    Register a new business
-// @route   POST /api/auth/register
-// @access  Public
+// ============= REGISTER USER =============
 const registerUser = async (req, res) => {
   try {
     const { businessName, email, phone, gstNumber, password } = req.body;
 
-    // Validate required fields
     if (!businessName || !email || !phone || !gstNumber || !password) {
       return res.status(400).json({
         success: false,
@@ -27,7 +24,6 @@ const registerUser = async (req, res) => {
       });
     }
 
-    // Check if user already exists
     const userExists = await User.findOne({
       $or: [{ email }, { phone }, { gstNumber }],
     });
@@ -44,7 +40,6 @@ const registerUser = async (req, res) => {
       });
     }
 
-    // Create user
     const user = await User.create({
       businessName,
       email,
@@ -56,22 +51,7 @@ const registerUser = async (req, res) => {
       creditLimit: config.creditCard.defaultLimit,
     });
 
-    // Generate token
     const token = generateToken(user._id);
-
-    // Send welcome notification
-    try {
-      await sendNotification({
-        user: user._id,
-        type: "welcome",
-        title: "Welcome to ElectroKart",
-        message: `Welcome ${businessName}! Your account has been created successfully. You can now apply for a credit card.`,
-        priority: "medium",
-        channel: { email: true, sms: false, inApp: true },
-      });
-    } catch (notifError) {
-      console.log("Welcome notification not sent:", notifError.message);
-    }
 
     res.status(201).json({
       success: true,
@@ -92,17 +72,20 @@ const registerUser = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error during registration",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
+// ============= LOGIN USER =============
 // @desc    Login user
 // @route   POST /api/auth/login
 // @access  Public
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
+
+    console.log("🔐 Login attempt:", email);
+
     // Validate input
     if (!email || !password) {
       return res.status(400).json({
@@ -111,14 +94,18 @@ const loginUser = async (req, res) => {
       });
     }
 
-    // Check if user exists
-    const user = await User.findOne({ email }).select("password");
+    // ✅ FIXED: Use '+password' to include the password field
+    const user = await User.findOne({ email }).select("+password");
+
     if (!user) {
+      console.log("❌ User not found");
       return res.status(401).json({
         success: false,
         message: "Invalid email or password",
       });
     }
+
+    console.log("✅ User found:", user.businessName);
 
     // Check if account is active
     if (user.accountStatus === "blocked") {
@@ -130,6 +117,8 @@ const loginUser = async (req, res) => {
 
     // Check password
     const isPasswordMatch = await user.comparePassword(password);
+    console.log("🔐 Password match:", isPasswordMatch);
+
     if (!isPasswordMatch) {
       return res.status(401).json({
         success: false,
@@ -200,9 +189,7 @@ const loginUser = async (req, res) => {
   }
 };
 
-// @desc    Get current user profile
-// @route   GET /api/auth/profile
-// @access  Private
+// ============= GET PROFILE =============
 const getProfile = async (req, res) => {
   try {
     const user = await User.findById(req.user.id).select("-password").populate({
@@ -249,18 +236,14 @@ const getProfile = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Update user profile
-// @route   PUT /api/auth/profile
-// @access  Private
+// ============= UPDATE PROFILE =============
 const updateProfile = async (req, res) => {
   try {
     const { businessName, phone, address } = req.body;
-
     const user = await User.findById(req.user.id);
 
     if (!user) {
@@ -270,7 +253,6 @@ const updateProfile = async (req, res) => {
       });
     }
 
-    // Update fields
     if (businessName) user.businessName = businessName;
     if (phone) user.phone = phone;
     if (address) {
@@ -298,14 +280,11 @@ const updateProfile = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Change password
-// @route   PUT /api/auth/change-password
-// @access  Private
+// ============= CHANGE PASSWORD =============
 const changePassword = async (req, res) => {
   try {
     const { currentPassword, newPassword } = req.body;
@@ -333,7 +312,6 @@ const changePassword = async (req, res) => {
       });
     }
 
-    // Check current password
     const isMatch = await user.comparePassword(currentPassword);
     if (!isMatch) {
       return res.status(401).json({
@@ -342,23 +320,8 @@ const changePassword = async (req, res) => {
       });
     }
 
-    // Update password
     user.password = newPassword;
     await user.save();
-
-    // Send notification
-    try {
-      await sendNotification({
-        user: user._id,
-        type: "password_changed",
-        title: "Password Changed",
-        message: "Your password was changed successfully",
-        priority: "high",
-        channel: { email: true, sms: false, inApp: true },
-      });
-    } catch (notifError) {
-      console.log("Password change notification not sent");
-    }
 
     res.json({
       success: true,
@@ -369,19 +332,16 @@ const changePassword = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Forgot password - send reset email
-// @route   POST /api/auth/forgot-password
-// @access  Public
+// ============= FORGOT PASSWORD =============
 const forgotPassword = async (req, res) => {
   try {
     const { email } = req.body;
-
     const user = await User.findOne({ email });
+
     if (!user) {
       return res.status(404).json({
         success: false,
@@ -389,34 +349,27 @@ const forgotPassword = async (req, res) => {
       });
     }
 
-    // Generate reset token
     const resetToken = jwt.sign(
       { id: user._id },
       process.env.JWT_SECRET + user.password,
       { expiresIn: "1h" }
     );
 
-    // In a real app, send email with reset link
-    // For now, just return token (for testing)
-
     res.json({
       success: true,
       message: "Password reset email sent",
-      resetToken, // Remove this in production
+      resetToken,
     });
   } catch (error) {
     console.error("Forgot password error:", error);
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Reset password with token
-// @route   POST /api/auth/reset-password
-// @access  Public
+// ============= RESET PASSWORD =============
 const resetPassword = async (req, res) => {
   try {
     const { token, newPassword } = req.body;
@@ -428,7 +381,6 @@ const resetPassword = async (req, res) => {
       });
     }
 
-    // Verify token and find user (simplified - in production, verify properly)
     const decoded = jwt.decode(token);
     if (!decoded || !decoded.id) {
       return res.status(401).json({
@@ -445,7 +397,6 @@ const resetPassword = async (req, res) => {
       });
     }
 
-    // Update password
     user.password = newPassword;
     await user.save();
 
@@ -458,18 +409,13 @@ const resetPassword = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Logout user
-// @route   POST /api/auth/logout
-// @access  Private
+// ============= LOGOUT =============
 const logoutUser = async (req, res) => {
   try {
-    // In JWT-based auth, logout is handled client-side
-    // But we can still send a response
     res.json({
       success: true,
       message: "Logged out successfully",
@@ -479,14 +425,11 @@ const logoutUser = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Delete account (self)
-// @route   DELETE /api/auth/delete-account
-// @access  Private
+// ============= DELETE ACCOUNT =============
 const deleteAccount = async (req, res) => {
   try {
     const user = await User.findById(req.user.id);
@@ -498,7 +441,6 @@ const deleteAccount = async (req, res) => {
       });
     }
 
-    // Check if user has outstanding balance
     const creditCard = await CreditCard.findById(user.creditCard);
     if (creditCard && creditCard.currentOutstanding > 0) {
       return res.status(400).json({
@@ -507,7 +449,6 @@ const deleteAccount = async (req, res) => {
       });
     }
 
-    // Soft delete or actually delete? Let's soft delete
     user.accountStatus = "deleted";
     await user.save();
 
@@ -520,19 +461,14 @@ const deleteAccount = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Server error",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
 
-// @desc    Verify email
-// @route   GET /api/auth/verify-email/:token
-// @access  Public
+// ============= VERIFY EMAIL =============
 const verifyEmail = async (req, res) => {
   try {
     const { token } = req.params;
-
-    // Verify token and find user
     const decoded = jwt.verify(token, config.jwt.secret);
     const user = await User.findById(decoded.id);
 
@@ -555,7 +491,6 @@ const verifyEmail = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Invalid or expired token",
-      error: config.nodeEnv === "development" ? error.message : undefined,
     });
   }
 };
