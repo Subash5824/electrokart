@@ -49,7 +49,7 @@ const corsOptions = {
     "https://electrokart.vercel.app",
     "https://electrokart-75mh.onrender.com",
     "https://electrokart-git-main-subash5824s-projects.vercel.app",
-    "https://electrokart-banker.vercel.app",
+    "https://voluble-unicorn-eb8cb0.netlify.app",
   ],
   credentials: true,
   optionsSuccessStatus: 200,
