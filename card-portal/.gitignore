@@ -57,3 +57,5 @@ mongodb-data/
 # Misc
 *.tgz
 *.gz
+.vercel
+.env*
